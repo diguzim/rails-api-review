@@ -4,5 +4,8 @@ class User < ApplicationRecord
   devise :database_authenticatable, :registerable,
          :jwt_authenticatable, jwt_revocation_strategy: self
 
+  validates :email, presence: true
+  validates :password, presence: true
+         
   has_many :monsters
 end
