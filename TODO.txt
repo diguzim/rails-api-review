@@ -1,4 +1,3 @@
 - Configure Rspec and add tests to existing features
-- Configure Factory Bot
 - Configure rubocop
 - Configure solargraph (or similar)

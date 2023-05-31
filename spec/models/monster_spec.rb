@@ -8,6 +8,11 @@ describe Monster, type: :model do
     expect(monster).to be_valid
   end
 
+  it "is valid with faker generated attributes" do
+    monster = create(:monster)
+    expect(monster).to be_valid
+  end
+
   it "is not valid when user is missing" do
     monster = Monster.new(name: 'Troll')
     expect(monster).to_not be_valid
