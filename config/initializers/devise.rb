@@ -14,7 +14,9 @@ Devise.setup do |config|
   # confirmation, reset password and unlock tokens in the database.
   # Devise will use the `secret_key_base` as its `secret_key`
   # by default. You can change it below and use your own secret key.
+  # rubocop:disable Layout/LineLength
   # config.secret_key = '63ef7421ef8446ffccb076f4f0a6f575a74f33cbcf56affc2af31656d4953e1d219e5d8ad117a6c2a9e0498193183599c83d545e371a928cab76c23d1356f677'
+  # rubocop:enable Layout/LineLength
 
   # ==> Controller configuration
   # Configure the parent class to the devise controllers.
@@ -24,7 +26,7 @@ Devise.setup do |config|
   # Configure the e-mail address which will be shown in Devise::Mailer,
   # note that it will be overwritten if you use your own mailer class
   # with default "from" parameter.
-  config.mailer_sender = 'please-change-me-at-config-initializers-devise@example.com'
+  config.mailer_sender = "please-change-me-at-config-initializers-devise@example.com"
 
   # Configure the class responsible to send e-mails.
   # config.mailer = 'Devise::Mailer'
@@ -36,7 +38,7 @@ Devise.setup do |config|
   # Load and configure the ORM. Supports :active_record (default) and
   # :mongoid (bson_ext recommended) by default. Other ORMs may be
   # available as additional gems.
-  require 'devise/orm/active_record'
+  require "devise/orm/active_record"
 
   # ==> Configuration for any authentication mechanism
   # Configure which keys are used when authenticating a user. The default is
@@ -126,7 +128,9 @@ Devise.setup do |config|
   config.stretches = Rails.env.test? ? 1 : 12
 
   # Set up a pepper to generate the hashed password.
+  # rubocop:disable Layout/LineLength
   # config.pepper = 'bdcb745f863254f759bfd3f53dbfc8ba43e450ab4382cd2ca505bc00841e984a122544c71279b991586dee60b60bed503703e07c6f685c136ed0d4e4ff3ae5c0'
+  # rubocop:enable Layout/LineLength
 
   # Send a notification to the original email when the user's email is changed.
   # config.send_email_changed_notification = false
@@ -278,10 +282,12 @@ Devise.setup do |config|
   # change the failure app, you can configure them inside the config.warden block.
   #
   config.warden do |manager|
-  #   manager.intercept_401 = false
-  #   manager.default_strategies(scope: :user).unshift :some_external_strategy
-    manager.failure_app = proc { |_env| ['401', { 'Content-Type' => 'application/json' }, [{ error: 'Unauthorized' }.to_json]] }
-    manager.scope_defaults :user, store: false
+    #   manager.intercept_401 = false
+    #   manager.default_strategies(scope: :user).unshift :some_external_strategy
+    manager.failure_app = proc { |_env|
+      ["401", { "Content-Type" => "application/json" }, [{ error: "Unauthorized" }.to_json]]
+    }
+    manager.scope_defaults(:user, store: false)
   end
 
   # ==> Mountable engine configurations
@@ -316,6 +322,6 @@ Devise.setup do |config|
   #  ==> Setting up devise for JWT
   # https://github.com/waiting-for-dev/devise-jwt
   config.jwt do |jwt|
-    jwt.secret = ENV['DEVISE_JWT_SECRET_KEY']
+    jwt.secret = ENV["DEVISE_JWT_SECRET_KEY"]
   end
 end

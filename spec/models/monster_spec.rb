@@ -1,25 +1,27 @@
-require 'rails_helper'
+# frozen_string_literal: true
+
+require "rails_helper"
 
 describe Monster, type: :model do
   let(:user) { create(:user) }
 
-  it 'is valid with valid attributes' do
-    monster = Monster.new(name: 'Troll', user: user)
-    expect(monster).to be_valid
+  it "is valid with valid attributes" do
+    monster = Monster.new(name: "Troll", user:)
+    expect(monster).to(be_valid)
   end
 
   it "is valid with faker generated attributes" do
     monster = create(:monster)
-    expect(monster).to be_valid
+    expect(monster).to(be_valid)
   end
 
   it "is not valid when user is missing" do
-    monster = Monster.new(name: 'Troll')
-    expect(monster).to_not be_valid
+    monster = Monster.new(name: "Troll")
+    expect(monster).to_not(be_valid)
   end
 
   it "is not valid when name is missing" do
-    monster = Monster.new(user: user)
-    expect(monster).to_not be_valid
+    monster = Monster.new(user:)
+    expect(monster).to_not(be_valid)
   end
 end

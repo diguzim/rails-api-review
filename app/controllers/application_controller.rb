@@ -1,5 +1,7 @@
-class ApplicationController < ActionController::API
-    include ActionController::MimeResponds
+# frozen_string_literal: true
 
-    respond_to :json
+class ApplicationController < ActionController::API
+  include ActionController::MimeResponds
+
+  respond_to :json
 end

@@ -1,3 +1,2 @@
-- Configure Rspec and add tests to existing features
-- Configure rubocop
+- Add tests to routes/controllers
 - Configure solargraph (or similar)
