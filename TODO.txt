@@ -1,0 +1,1 @@
+- Configure Rspec and add tests to existing features
