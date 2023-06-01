@@ -81,8 +81,9 @@ RSpec.describe(MonstersController, type: :controller) do
   end
 
   describe "without an authenticated user" do
-    pending "returns an unauthorized response" do
-      expect { get(:index) }.to(raise_error(ActionController::RoutingError))
+    it "returns an unauthorized response" do
+      get :index
+      expect(response).to(have_http_status(401))
     end
   end
 end
