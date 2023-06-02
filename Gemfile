@@ -65,3 +65,5 @@ gem "pry-byebug", "~> 3.10"
 gem "dotenv-rails", "~> 2.8"
 
 gem "rubocop-shopify", "~> 2.13"
+
+gem "sidekiq", "~> 7.1"
