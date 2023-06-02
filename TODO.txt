@@ -1,2 +1,1 @@
-- Add tests to routes/controllers
-- Configure solargraph (or similar)
+- Configure Sidekiq
