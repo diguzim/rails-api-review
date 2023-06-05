@@ -56,6 +56,10 @@ group :development do
   gem "solargraph-rails", "~> 1.1"
 end
 
+group :test do
+  gem "simplecov", "~> 0.22.0", require: false
+end
+
 gem "devise", "~> 4.9"
 
 gem "devise-jwt", "~> 0.11.0"

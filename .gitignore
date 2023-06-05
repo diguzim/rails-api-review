@@ -34,3 +34,6 @@
 
 # Environment variables
 .env
+
+# Test coverage report
+/coverage

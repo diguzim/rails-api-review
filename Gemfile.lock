@@ -92,6 +92,7 @@ GEM
       devise (~> 4.0)
       warden-jwt_auth (~> 0.8)
     diff-lcs (1.5.0)
+    docile (1.4.0)
     dotenv (2.8.1)
     dotenv-rails (2.8.1)
       dotenv (= 2.8.1)
@@ -250,6 +251,12 @@ GEM
       connection_pool (>= 2.3.0)
       rack (>= 2.2.4)
       redis-client (>= 0.14.0)
+    simplecov (0.22.0)
+      docile (~> 1.1)
+      simplecov-html (~> 0.11)
+      simplecov_json_formatter (~> 0.1)
+    simplecov-html (0.12.3)
+    simplecov_json_formatter (0.1.4)
     solargraph (0.49.0)
       backport (~> 1.2)
       benchmark
@@ -308,6 +315,7 @@ DEPENDENCIES
   rubocop (~> 1.51)
   rubocop-shopify (~> 2.13)
   sidekiq (~> 7.1)
+  simplecov (~> 0.22.0)
   solargraph (~> 0.49.0)
   solargraph-rails (~> 1.1)
   tzinfo-data
