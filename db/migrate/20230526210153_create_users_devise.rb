@@ -34,7 +34,7 @@ class CreateUsersDevise < ActiveRecord::Migration[7.0]
       # t.datetime :locked_at
 
       # Uncomment below if timestamps were not included in your original model.
-      # t.timestamps null: false
+      t.timestamps(null: true)
     end
 
     add_index(:users, :email,                unique: true)

@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 Rails.application.routes.draw do
+  resources :drops
   resources :items
   resources :monsters
   devise_for :users, defaults: {
