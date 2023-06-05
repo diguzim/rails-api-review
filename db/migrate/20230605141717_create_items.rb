@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
-class CreateMonsters < ActiveRecord::Migration[7.0]
+class CreateItems < ActiveRecord::Migration[7.0]
   def up
-    create_table(:monsters) do |t|
+    create_table(:items) do |t|
       t.string(:name)
       t.references(:user, null: false, foreign_key: true)
 
@@ -11,6 +11,6 @@ class CreateMonsters < ActiveRecord::Migration[7.0]
   end
 
   def down
-    drop_table(:monsters)
+    drop_table(:items)
   end
 end

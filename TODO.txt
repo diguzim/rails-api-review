@@ -1,2 +1,2 @@
-- Add Item CRUD
 - Associate Items with Monsters (N x N)
+- Improve scaffold generators?

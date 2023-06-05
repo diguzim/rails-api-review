@@ -12,4 +12,5 @@ class User < ApplicationRecord
   validates :password, presence: true
 
   has_many :monsters
+  has_many :items
 end
