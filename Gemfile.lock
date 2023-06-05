@@ -306,6 +306,7 @@ DEPENDENCIES
   dotenv-rails (~> 2.8)
   factory_bot_rails (~> 6.2)
   faker (~> 3.2)
+  nokogiri (~> 1.15)
   pg (~> 1.1)
   pry-byebug (~> 3.10)
   puma (~> 5.0)
