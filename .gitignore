@@ -8,8 +8,8 @@
 /.bundle
 
 # Ignore the postgres and redis docker volumes
-/postgres-data/*
-/redis-data/*
+/postgres_data/*
+/redis_data/*
 
 # Ignore all logfiles and tempfiles.
 /log/*

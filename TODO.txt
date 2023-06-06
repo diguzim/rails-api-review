@@ -2,3 +2,4 @@
 - Deploy on AWS
 - Start CI/CD processes
 - Checkout Ruby on Jets(Ruby Serverless Framework)
+- Rename everything from Monster to Creature
