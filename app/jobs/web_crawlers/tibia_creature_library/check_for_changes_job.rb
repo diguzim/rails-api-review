@@ -8,7 +8,7 @@ module WebCrawlers
     class CheckForChangesJob < ApplicationJob
       queue_as :default
 
-      def perform(*args)
+      def perform
         url = "https://www.tibia.com/library/?subtopic=creatures"
         # rubocop:disable Security/Open(RuboCop)
         doc = Nokogiri::HTML(URI.open(url))
@@ -22,7 +22,7 @@ module WebCrawlers
 
           race = url.match(/creatures&race=(.+)$/)[1]
 
-          CheckCreatureLibraryEntryForChangesJob.perform_async(race)
+          CheckCreatureLibraryEntryForChangesJob.perform_later(race)
         end
 
         nil

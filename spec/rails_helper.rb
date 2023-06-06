@@ -68,4 +68,8 @@ RSpec.configure do |config|
   config.include(FactoryBot::Syntax::Methods)
 
   config.include_context("authentication_helper", type: :controller)
+
+  config.before(:each) do
+    ActiveJob::Base.queue_adapter = :test
+  end
 end

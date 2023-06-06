@@ -27,7 +27,7 @@ module WebCrawlers
 
         if existing_creature_library_entry
           if existing_creature_library_entry.description != description
-            NotifyLibraryEntryDescriptionChangeJob.perform_async(existing_creature_library_entry.id, description)
+            NotifyLibraryEntryDescriptionChangeJob.perform_later(existing_creature_library_entry.id, description)
           end
         else
           monster = Monster.create!({ name: pluralized_name })
