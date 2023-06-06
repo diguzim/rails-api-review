@@ -8,6 +8,8 @@ module WebCrawlers
     class CheckCreatureLibraryEntryForChangesJob < ApplicationJob
       queue_as :default
 
+      sidekiq_options lock: :until_executed
+
       def perform(race)
         url = "https://www.tibia.com/library/?subtopic=creatures&race=#{race}"
         # rubocop:disable Security/Open(RuboCop)
@@ -39,6 +41,8 @@ module WebCrawlers
             monster:,
           )
         end
+
+        sleep(1)
       end
     end
   end

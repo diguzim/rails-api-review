@@ -35,8 +35,8 @@ RSpec.describe(WebCrawlers::TibiaCreatureLibrary::CheckCreatureLibraryEntryForCh
             "the Elves are very skilled in magic, and almost every Elf knows some spells.\nElves have 100 hitpoints. "\
             "They are strong against holy damage. On the other hand, they are weak against death damage. It takes 320 "\
             "mana to convince these creatures but they cannot be summoned. In addition, they are able to sense "\
-            "invisible creatures.\nElves yield 42 experience points. They carry gold coins, leather boots, longswords, "\
-            "plums, studded helmets and sometimes other items with them."
+            "invisible creatures.\nElves yield 42 experience points. They carry gold coins, leather boots, "\
+            "longswords, plums, studded helmets and sometimes other items with them."
         end
         it "don't create entry on database neither schedule notification job" do
           # rubocop:disable Layout/LineLength(RuboCop)

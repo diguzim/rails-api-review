@@ -1,8 +1,5 @@
 # frozen_string_literal: true
 
-require "nokogiri"
-require "open-uri"
-
 module WebCrawlers
   module TibiaCreatureLibrary
     class NotifyLibraryEntryDescriptionChangeJob < ApplicationJob
