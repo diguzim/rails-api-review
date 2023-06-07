@@ -41,8 +41,11 @@ gem "rack-cors"
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   gem "debug", platforms: [:mri, :mingw, :x64_mingw]
+
   gem "factory_bot_rails", "~> 6.2"
+
   gem "faker", "~> 3.2"
+  
   gem "rspec-rails", "~> 6.0"
 end
 
@@ -51,6 +54,8 @@ group :development do
   # gem "spring"
   gem "rubocop", "~> 1.51"
 
+  gem "rubocop-shopify", "~> 2.13"
+
   gem "solargraph", "~> 0.49.0"
 
   gem "solargraph-rails", "~> 1.1"
@@ -58,7 +63,9 @@ end
 
 group :test do
   gem "simplecov", "~> 0.22.0", require: false
+
   gem "vcr", "~> 6.1"
+
   gem "webmock", "~> 3.18"
 end
 
@@ -69,8 +76,6 @@ gem "devise-jwt", "~> 0.11.0"
 gem "pry-byebug", "~> 3.10"
 
 gem "dotenv-rails", "~> 2.8"
-
-gem "rubocop-shopify", "~> 2.13"
 
 gem "sidekiq", "~> 7.1"
 
