@@ -2,9 +2,9 @@
 
 FactoryBot.define do
   factory :creature_library_entry do
-    monster { nil }
-    description { "MyText" }
-    race { "MyString" }
-    pluralized_name { "MyString" }
+    monster { association :monster }
+    description { Faker::Beer.style }
+    race { Faker::Cannabis.strain }
+    pluralized_name { Faker::Coffee.blend_name }
   end
 end
