@@ -1,0 +1,913 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://www.tibia.com/library/?race=elf&subtopic=creatures
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 06 Jun 2023 20:07:54 GMT
+      Content-Type:
+      - text/html; charset=ISO-8859-1
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Content-Security-Policy:
+      - frame-ancestors 'self';script-src *.tibia.com *.cipsoft.com *.cipsoft.de https://connect.facebook.net
+        https://facebook.com https://www.youtube.com https://platform.twitter.com
+        https://www.google.com https://s.ytimg.com https://www.gstatic.com  https://www.googletagmanager.com
+        https://googleads.g.doubleclick.net 'self' 'unsafe-inline';
+      X-Content-Security-Policy:
+      - frame-ancestors 'self';script-src *.tibia.com *.cipsoft.com *.cipsoft.de https://connect.facebook.net
+        https://facebook.com https://www.youtube.com https://platform.twitter.com
+        https://www.google.com https://s.ytimg.com https://www.gstatic.com  https://www.googletagmanager.com
+        https://googleads.g.doubleclick.net 'self' 'unsafe-inline';
+      X-Webkit-Csp:
+      - frame-ancestors 'self';script-src *.tibia.com *.cipsoft.com *.cipsoft.de https://connect.facebook.net
+        https://facebook.com https://www.youtube.com https://platform.twitter.com
+        https://www.google.com https://s.ytimg.com https://www.gstatic.com  https://www.googletagmanager.com
+        https://googleads.g.doubleclick.net 'self' 'unsafe-inline';
+      Strict-Transport-Security:
+      - max-age=15552000;
+      Vary:
+      - Accept-Encoding
+      Cf-Cache-Status:
+      - DYNAMIC
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 7d3348c2cfe11ce7-GRU
+      Alt-Svc:
+      - h3=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: "\n<!DOCTYPE html>\n<html>\n<head>\n<title>Tibia - Free Multiplayer
+        Online Role Playing Game - Library</title>\n<meta http-equiv=\"content-type\"
+        content=\"text/html; charset=ISO-8859-1\" /> <meta name=\"description\" content=\"Tibia
+        is a free massively multiplayer online role-playing game (MMORPG). Join this
+        fascinating game that has thousands of fans from all over the world! - http://www.tibia.com\"
+        />\n<meta name=\"author\" content=\"CipSoft GmbH\" />\n<meta http-equiv=\"content-language\"
+        content=\"en\" />\n<meta name=\"keywords\" content=\"free online game, free
+        multiplayer game, free online rpg, free mmorpg, mmorpg, mmog, online role
+        playing game, online multiplayer game, internet game, online rpg, rpg\" />\n<meta
+        name=\"google-site-verification\" content=\"DnO3wR8m-XUPrU02NoZt9x3vMB0fjpOXXJshbKucEj8\"
+        />\n\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0,
+        minimum-scale=1.0, viewport-fit=cover\" />\n\n<meta property=\"og:title\"
+        content=\"Tibia - Free Multiplayer Online Role Playing Game\" />\n<meta property=\"og:url\"
+        content=\"http://tibia.com\" />\n<meta property=\"og:type\" content=\"website\"
+        />\n<meta property=\"og:description\" content=\"Tibia is a free massively
+        multiplayer online role-playing game (MMORPG). Join this fascinating game
+        that has thousands of fans from all over the world!\" />\n<meta property=\"og:image\"
+        content=\"https://static.tibia.com/images/global/og-meta/official-tibia-site_wide.png\"
+        />\n<meta property=\"og:image:alt\" content=\"Official Tibia Website\" />\n<meta
+        property=\"og:image:width\" content=\"600\" />\n<meta property=\"og:image:height\"
+        content=\"315\" />\n<meta property=\"fb:app_id\" content=\"497232093667125\"
+        />\n\n<link rel=\"shortcut icon\" href=\"https://static.tibia.com/images/global/general/favicon.ico\"
+        type=\"image/x-icon\">\n\n<link rel=\"apple-touch-icon\" sizes=\"152x152\"
+        href=\"https://static.tibia.com/images/global/general/apple-touch-icon-152x152.png\">\n\n<link
+        rel=\"apple-touch-icon\" sizes=\"144x144\" href=\"https://static.tibia.com/images/global/general/apple-touch-icon-144x144.png\">\n\n<link
+        rel=\"apple-touch-icon\" sizes=\"120x120\" href=\"https://static.tibia.com/images/global/general/apple-touch-icon-120x120.png\">\n\n<link
+        rel=\"apple-touch-icon\" sizes=\"114x114\" href=\"https://static.tibia.com/images/global/general/apple-touch-icon-114x114.png\">\n\n<link
+        rel=\"apple-touch-icon\" sizes=\"76x76\" href=\"https://static.tibia.com/images/global/general/apple-touch-icon-76x76.png\">\n\n<link
+        rel=\"apple-touch-icon\" sizes=\"72x72\" href=\"https://static.tibia.com/images/global/general/apple-touch-icon-72x72.png\">\n\n<link
+        rel=\"apple-touch-icon\" href=\"https://static.tibia.com/images/global/general/apple-touch-icon.png\">\n\n<link
+        rel=\"apple-touch-icon-precomposed\" href=\"https://static.tibia.com/images/global/general/apple-touch-icon-precomposed.png\">\n\n<link
+        href=\"https://static.tibia.com/styles/basic_part_1.css?version=42b82200e57fe0dc0004e39a6cb87b91\"
+        rel=\"stylesheet\" type=\"text/css\">\n\n<link href=\"https://static.tibia.com/styles/basic_part_2.css?version=b406111a7566be89c033c13828df6d0d\"
+        rel=\"stylesheet\" type=\"text/css\">\n\n<link href=\"https://static.tibia.com/styles/basic_part_3.css?version=17b188b6096aadb4133c498df38d080c\"
+        rel=\"stylesheet\" type=\"text/css\">\n<link href=\"https://static.tibia.com/styles/global_part_1.css?version=8cfc27f9e7a15e2b1589488e53b4dd27\"
+        rel=\"stylesheet\" type=\"text/css\">\n<link href=\"https://static.tibia.com/styles/global_part_2.css?version=8e249a7b7e38709dd1a38afa41824956\"
+        rel=\"stylesheet\" type=\"text/css\">\n<link rel=\"stylesheet\" href=\"https://static.tibia.com/javascripts/intl-tel-input/build/css/intlTelInput.css\">\n<script
+        type=\"application/ld+json\">\n    {\n      \"@context\": \"http://schema.org\",\n
+        \     \"@type\":\"VideoGame\",\n      \"name\":[\n        {\n          \"@language\":\"en\",\n
+        \         \"@value\":\"Tibia\"\n        }\n      ],\n      \"description\":[\n
+        \       {\n          \"@language\":\"en\",\n          \"@value\":\"Tibia is
+        a free massively multiplayer online role-playing game (MMORPG). Join this
+        fascinating game that has thousands of fans from all over the world!\"\n        }\n
+        \     ],\n      \"genre\":[\n        \"MMORPG\",\n        \"Massively multiplayer
+        online role-playing game\"\n      ],\n      \"url\":\"https://secure.tibia.com\",\n
+        \     \"image\":\"https://static.tibia.com/images/global/general/streaming/youtube/poster.jpg\",\n
+        \     \"screenshot\":\"https://static.tibia.com/images/images/global/general/streaming/youtube/backgroundart.jpg\",\n
+        \     \"sameAs\": [\n        \"https://en.wikipedia.org/wiki/Tibia_(video_game)\",\n
+        \       \"https://www.youtube.com/channel/UCkOpOASkwLvVDyGUQ6T8IAA\"\n      ],\n
+        \     \"trailer\":{\n        \"@type\":\"VideoObject\",\n        \"url\":\"https://youtu.be/OpAaLT_PTCU\",\n
+        \       \"inLanguage\":\"en\",\n        \"name\":\"Tibia - Official Trailer
+        2016\",\n        \"description\":\"The official gameplay trailer for Tibia,
+        one of the first MMORPGs ever created. Explore decades of content and unite
+        with thousands of players from all around the world.\",\n        \"thumbnailUrl\":\"https://static.tibia.com/images/global/general/video-frame-big.png\",\n
+        \       \"uploadDate\":\"2016-01-13\"\n      },\n        \"applicationCategory\":\"Game\",\n
+        \       \"operatingSystem\":\"Windows 7 or newer, Linux, macOS\"\n    }\n
+        \ </script> <script type=\"text/javascript\" src=\"https://static.tibia.com/javascripts/jquery-3.6.1.min.js\"></script>\n<script
+        type=\"text/javascript\" src=\"https://static.tibia.com/javascripts/ajaxcip_tibia_v1.js\"></script>\n<script
+        type=\"text/javascript\">\n  var loginStatus=0; loginStatus='false';  var
+        activeSubmenuItem='creatures';  var JS_DIR_IMAGES=0; JS_DIR_IMAGES='https://static.tibia.com/images/';
+        \ var JS_DIR_ACCOUNT=0; JS_DIR_ACCOUNT='https://www.tibia.com/account/';  var
+        JS_DIR_COMMUNITY=0; JS_DIR_COMMUNITY='https://www.tibia.com/community/';  var
+        JS_DIR_WEBSITESERVICES=0; JS_DIR_WEBSITESERVICES='https://www.tibia.com/websiteservices/';
+        \ var JS_FACEBOOKAPPID = '497232093667125';  var JS_COOKIE_DOMAIN=0; JS_COOKIE_DOMAIN='.tibia.com';
+        \ var g_FormName='';  var g_FormField='';  var g_Deactivated=false;  var JS_ANNIVERSARY_THEMEBOX_STEP_1=0;
+        JS_ANNIVERSARY_THEMEBOX_STEP_1='1663660800';  var JS_ANNIVERSARY_THEMEBOX_STEP_2=0;
+        JS_ANNIVERSARY_THEMEBOX_STEP_2='1663660800';  var JS_ANNIVERSARY_THEMEBOX_STEP_3=0;
+        JS_ANNIVERSARY_THEMEBOX_STEP_3='1664215200';var FB_TryLogin = 0;var FB_ForceReload
+        = 0;</script>\n<script type=\"text/javascript\">\n</script>\n<script type=\"text/javascript\"
+        src=\"https://static.tibia.com/javascripts/zxcvbn.js?version=2f0541a1e9b57dfb523f34754a8ba59f\"></script>\n<script
+        type=\"text/javascript\" src=\"https://static.tibia.com/javascripts/global.js?version=7b3e3eb629d58ce11ddbddafc8f84b10\"></script>\n<script
+        type=\"text/javascript\">\n    var LoadMobileCSS =   1;\n  </script>\n<script
+        type=\"text/javascript\" src=\"https://static.tibia.com/javascripts/generic.js?version=6c555e626a8e306d13d78243d9fe255e\"></script>\n<script
+        type=\"text/javascript\" src=\"https://static.tibia.com/javascripts/initialize.js?version=2b95fd0d6e5da1939f97abc1f6382c67\"></script>\n<script
+        type=\"text/javascript\" src=\"https://static.tibia.com/javascripts/fb-init.js\"></script>\n</head>\n<body
+        onBeforeUnLoad=\"SaveMenu();\" onUnload=\"SaveMenu();\" onLoad=\"SetFormFocus()\"
+        style=\"background-image:url(https://static.tibia.com/images/global/header/background-artwork.jpg);\">\n<div
+        id=\"fb-root\"></div>\n<div id=\"DeactivationContainer\" onClick=\"ActivateWebsiteFrame();$('.LightBoxContentToHide').css('display',
+        'none');\"></div>\n<a name=\"top\"></a>\n<div id=\"tmp-browser-info\">\n<div
+        id=\"tmp-browser-info-chromium\">NO - internet explorer</div>\n<div id=\"tmp-browser-info-internet-explorer-new\">NEW
+        - internet explorer</div>\n<div id=\"tmp-browser-info-internet-explorer-old\">OLD
+        - internet explorer</div>\n</div>\n<div class=\"main-site-container\">\n<div
+        class=\"main-header\">\n<header id=\"MobileMenu\"><nav><div id=\"MobileMenuBottom\"></div><div
+        class=\"MobileTibiaLogo\"><a id=\"\" href=\"https://www.tibia.com/news/?subtopic=latestnews\">
+        </a></div><input type=\"checkbox\" id=\"MobileShortMenuIcon\" /><label for=\"MobileShortMenuIcon\"
+        id=\"MyAccount\" class=\"MobileShortMenuIconContainer MobileNavigationMainElement\"></label><ul
+        class=\"MobileMenuItems MobileShortMenuItems\"><li class=\"Level2Entry MobileNavigationLinkContainer\"
+        id=\"MobileShortMenuMyAccount\"><form action=\"https://www.tibia.com/account/?subtopic=accountmanagement\"
+        method=\"post\" style=\"padding:0px;margin:0px;\"><div class=\"BigButton\"
+        style=\"background-image:url(https://static.tibia.com/images/global/buttons/button_green.gif)\"><div
+        onMouseOver=\"MouseOverBigButton(this);\" onMouseOut=\"MouseOutBigButton(this);\"><div
+        class=\"BigButtonOver\" style=\"background-image:url(https://static.tibia.com/images/global/buttons/button_green_over.gif);\"></div><input
+        class=\"BigButtonText\" type=\"submit\" value=\"Login\" /></div></div></form></li><li
+        class=\"Level2Entry MobileNavigationLinkContainer\" id=\"MobileShortMenuLogout\"><form
+        action=\"https://www.tibia.com/support/?subtopic=gethelp\" method=\"post\"
+        style=\"padding:0px;margin:0px;\"><div class=\"BigButton\" style=\"background-image:url(https://static.tibia.com/images/global/buttons/button_blue.gif)\"><div
+        onMouseOver=\"MouseOverBigButton(this);\" onMouseOut=\"MouseOutBigButton(this);\"><div
+        class=\"BigButtonOver\" style=\"background-image:url(https://static.tibia.com/images/global/buttons/button_blue_over.gif);\"></div><input
+        class=\"BigButtonText\" type=\"submit\" value=\"Support\" /></div></div></form></li></ul><input
+        type=\"checkbox\" id=\"MobileMenuIcon\" /><label for=\"MobileMenuIcon\" class=\"MobileMenuIconContainer
+        MobileNavigationMainElement\"></label><ul class=\"MobileMenuItems\"><li class=\"Level1Block\"
+        id=\"news\"><div class=\"Level1Entry\" onClick=\"MenuItemAction('news')\"
+        ;>News</div><ul class=\"\"><li class=\"Level2Block MobileNavigationLinkContainer\"
+        id=\"latestnews\"><a class=\"Level2Entry\" href=\"https://www.tibia.com/news/?subtopic=latestnews\">Latest
+        News</a></li><li class=\"Level2Block MobileNavigationLinkContainer\" id=\"newsarchive\"><a
+        class=\"Level2Entry\" href=\"https://www.tibia.com/news/?subtopic=newsarchive\">News
+        Archive</a></li><li class=\"Level2Block MobileNavigationLinkContainer\" id=\"eventcalendar\"><a
+        class=\"Level2Entry\" href=\"https://www.tibia.com/news/?subtopic=eventcalendar\">Event
+        Schedule</a></li></ul></li><li class=\"Level1Block\" id=\"abouttibia\"><div
+        class=\"Level1Entry\" onClick=\"MenuItemAction('abouttibia')\" ;>About Tibia</div><ul
+        class=\"\"><li class=\"Level2Block MobileNavigationLinkContainer\" id=\"whatistibia\"><a
+        class=\"Level2Entry\" href=\"https://www.tibia.com/abouttibia/?subtopic=whatistibia\">What
+        Is Tibia?</a></li><li class=\"Level2Block MobileNavigationLinkContainer\"
+        id=\"screenshots\"><a class=\"Level2Entry\" href=\"https://www.tibia.com/abouttibia/?subtopic=screenshots\">Screenshots</a></li><li
+        class=\"Level2Block MobileNavigationLinkContainer\" id=\"gamefeatures\"><a
+        class=\"Level2Entry\" href=\"https://www.tibia.com/abouttibia/?subtopic=gamefeatures\">Game
+        Features</a></li><li class=\"Level2Block MobileNavigationLinkContainer\" id=\"premiumfeatures\"><a
+        class=\"Level2Entry\" href=\"https://www.tibia.com/abouttibia/?subtopic=premiumfeatures\">Premium
+        Features</a></li><li class=\"Level2Block MobileNavigationLinkContainer\" id=\"aboutcipsoft\"><a
+        class=\"Level2Entry\" href=\"https://www.tibia.com/abouttibia/?subtopic=aboutcipsoft\">About
+        CipSoft</a></li></ul></li><li class=\"Level1Block\" id=\"gameguides\"><div
+        class=\"Level1Entry\" onClick=\"MenuItemAction('gameguides')\" ;>Game Guides</div><ul
+        class=\"\"><li class=\"Level2Block MobileNavigationLinkContainer\" id=\"quickstart\"><a
+        class=\"Level2Entry\" href=\"https://www.tibia.com/gameguides/?subtopic=quickstart\">Quickstart</a></li><li
+        class=\"Level2Block MobileNavigationLinkContainer\" id=\"manual\"><a class=\"Level2Entry\"
+        href=\"https://www.tibia.com/gameguides/?subtopic=manual\">Manual</a></li><li
+        class=\"Level2Block MobileNavigationLinkContainer\" id=\"securityhints\"><a
+        class=\"Level2Entry\" href=\"https://www.tibia.com/gameguides/?subtopic=securityhints\">Security
+        Hints</a></li></ul></li><li class=\"Level1Block\" id=\"library\"><div class=\"Level1Entry\"
+        onClick=\"MenuItemAction('library')\" ;>Library</div><ul class=\"\"><li class=\"Level2Block
+        MobileNavigationLinkContainer\" id=\"creatures\"><a class=\"Level2Entry\"
+        href=\"https://www.tibia.com/library/?subtopic=creatures\">Creatures</a></li><li
+        class=\"Level2Block MobileNavigationLinkContainer\" id=\"boostablebosses\"><a
+        class=\"Level2Entry\" href=\"https://www.tibia.com/library/?subtopic=boostablebosses\">Boostable
+        Bosses</a></li><li class=\"Level2Block MobileNavigationLinkContainer\" id=\"spells\"><a
+        class=\"Level2Entry\" href=\"https://www.tibia.com/library/?subtopic=spells\">Spells</a></li><li
+        class=\"Level2Block MobileNavigationLinkContainer\" id=\"achievements\"><a
+        class=\"Level2Entry\" href=\"https://www.tibia.com/library/?subtopic=achievements\">Achievements</a></li><li
+        class=\"Level2Block MobileNavigationLinkContainer\" id=\"worldquests\"><a
+        class=\"Level2Entry\" href=\"https://www.tibia.com/library/?subtopic=worldquests\">World
+        Quests</a></li><li class=\"Level2Block MobileNavigationLinkContainer\" id=\"experiencetable\"><a
+        class=\"Level2Entry\" href=\"https://www.tibia.com/library/?subtopic=experiencetable\">Experience
+        Table</a></li><li class=\"Level2Block MobileNavigationLinkContainer\" id=\"maps\"><a
+        class=\"Level2Entry\" href=\"https://www.tibia.com/library/?subtopic=maps\">Maps</a></li><li
+        class=\"Level2Block MobileNavigationLinkContainer\" id=\"genesis\"><a class=\"Level2Entry\"
+        href=\"https://www.tibia.com/library/?subtopic=genesis\">Genesis</a></li><li
+        class=\"Level2Block MobileNavigationLinkContainer\" id=\"soundtrack\"><a class=\"Level2Entry\"
+        href=\"https://www.tibia.com/library/?subtopic=soundtrack\">Soundtrack</a></li></ul></li><li
+        class=\"Level1Block\" id=\"community\"><div class=\"Level1Entry\" onClick=\"MenuItemAction('community')\"
+        ;>Community</div><ul class=\"\"><li class=\"Level2Block MobileNavigationLinkContainer\"
+        id=\"characters\"><a class=\"Level2Entry\" href=\"https://www.tibia.com/community/?subtopic=characters\">Characters</a></li><li
+        class=\"Level2Block MobileNavigationLinkContainer\" id=\"worlds\"><a class=\"Level2Entry\"
+        href=\"https://www.tibia.com/community/?subtopic=worlds\">Worlds</a></li><li
+        class=\"Level2Block MobileNavigationLinkContainer\" id=\"highscores\"><a class=\"Level2Entry\"
+        href=\"https://www.tibia.com/community/?subtopic=highscores\">Highscores</a></li><li
+        class=\"Level2Block MobileNavigationLinkContainer\" id=\"leaderboards\"><a
+        class=\"Level2Entry\" href=\"https://www.tibia.com/community/?subtopic=leaderboards\">Leaderboards</a></li><li
+        class=\"Level2Block MobileNavigationLinkContainer\" id=\"killstatistics\"><a
+        class=\"Level2Entry\" href=\"https://www.tibia.com/community/?subtopic=killstatistics\">Kill
+        Statistics</a></li><li class=\"Level2Block MobileNavigationLinkContainer\"
+        id=\"houses\"><a class=\"Level2Entry\" href=\"https://www.tibia.com/community/?subtopic=houses\">Houses</a></li><li
+        class=\"Level2Block MobileNavigationLinkContainer\" id=\"guilds\"><a class=\"Level2Entry\"
+        href=\"https://www.tibia.com/community/?subtopic=guilds\">Guilds</a></li><li
+        class=\"Level2Block MobileNavigationLinkContainer\" id=\"polls\"><a class=\"Level2Entry\"
+        href=\"https://www.tibia.com/community/?subtopic=polls\">Polls</a></li><li
+        class=\"Level2Block MobileNavigationLinkContainer\" id=\"feedbackform\"><a
+        class=\"Level2Entry\" href=\"https://www.tibia.com/community/?subtopic=feedbackform\">Feedback
+        Form</a></li><li class=\"Level2Block MobileNavigationLinkContainer\" id=\"fansites\"><a
+        class=\"Level2Entry\" href=\"https://www.tibia.com/community/?subtopic=fansites\">Fansites</a></li><li
+        class=\"Level2Block MobileNavigationLinkContainer\" id=\"resellers\"><a class=\"Level2Entry\"
+        href=\"https://www.tibia.com/community/?subtopic=resellers\">Resellers</a></li></ul></li><li
+        class=\"Level1Block\" id=\"forum\"><div class=\"Level1Entry\" onClick=\"MenuItemAction('forum')\"
+        ;>Forum</div><ul class=\"\"><li class=\"Level2Block MobileNavigationLinkContainer\"
+        id=\"worldboards\"><a class=\"Level2Entry\" href=\"https://www.tibia.com/forum/?subtopic=worldboards\">World
+        Boards</a></li><li class=\"Level2Block MobileNavigationLinkContainer\" id=\"tradeboards\"><a
+        class=\"Level2Entry\" href=\"https://www.tibia.com/forum/?subtopic=tradeboards\">Trade
+        Boards</a></li><li class=\"Level2Block MobileNavigationLinkContainer\" id=\"communityboards\"><a
+        class=\"Level2Entry\" href=\"https://www.tibia.com/forum/?subtopic=communityboards\">Community
+        Boards</a></li><li class=\"Level2Block MobileNavigationLinkContainer\" id=\"supportboards\"><a
+        class=\"Level2Entry\" href=\"https://www.tibia.com/forum/?subtopic=supportboards\">Support
+        Boards</a></li><li class=\"Level2Block MobileNavigationLinkContainer\" id=\"guildboards\"><a
+        class=\"Level2Entry\" href=\"https://www.tibia.com/forum/?subtopic=guildboards\">Guild
+        Boards</a></li><li class=\"Level2Block MobileNavigationLinkContainer\" id=\"forum\"><a
+        class=\"Level2Entry\" href=\"https://www.tibia.com/forum/?subtopic=forum&action=cm_post_archive\">CM
+        Post Archive</a></li></ul></li><li class=\"Level1Block\" id=\"account\"><div
+        class=\"Level1Entry\" onClick=\"MenuItemAction('account')\" ;>Account</div><ul
+        class=\"\"><li class=\"Level2Block MobileNavigationLinkContainer\" id=\"accountmanagement\"><a
+        class=\"Level2Entry\" href=\"https://www.tibia.com/account/?subtopic=accountmanagement&amp;page=overview\">Account
+        Management</a></li><li class=\"Level2Block MobileNavigationLinkContainer\"
+        id=\"createaccount\"><a class=\"Level2Entry\" href=\"https://www.tibia.com/account/?subtopic=createaccount\">Create
+        Account</a></li><li class=\"Level2Block MobileNavigationLinkContainer\" id=\"downloadclient\"><a
+        class=\"Level2Entry\" href=\"https://www.tibia.com/account/?subtopic=downloadclient&step=downloadagreement\">Download
+        Client</a></li><li class=\"Level2Block MobileNavigationLinkContainer\" id=\"webshop\"><a
+        class=\"Level2Entry\" href=\"https://www.tibia.com/account/index.php?subtopic=redirectlogin&redirect=https%3A%2F%2Fwww.tibia.com%2Faccount%2F%3Fsubtopic%3Daccountmanagement%23Products%2BAvailable\">Webshop</a></li><li
+        class=\"Level2Block MobileNavigationLinkContainer\" id=\"lostaccount\"><a
+        class=\"Level2Entry\" href=\"https://www.tibia.com/account/?subtopic=lostaccount\">Lost
+        Account</a></li></ul></li><li class=\"Level1Block\" id=\"charactertrade\"><div
+        class=\"Level1Entry\" onClick=\"MenuItemAction('charactertrade')\" ;>Char
+        Bazaar</div><ul class=\"\"><li class=\"Level2Block MobileNavigationLinkContainer\"
+        id=\"currentcharactertrades\"><a class=\"Level2Entry\" href=\"https://www.tibia.com/charactertrade/?subtopic=currentcharactertrades\">Current
+        Auctions</a></li><li class=\"Level2Block MobileNavigationLinkContainer\" id=\"pastcharactertrades\"><a
+        class=\"Level2Entry\" href=\"https://www.tibia.com/charactertrade/?subtopic=pastcharactertrades\">Auction
+        History</a></li><li class=\"Level2Block MobileNavigationLinkContainer\" id=\"ownbids\"><a
+        class=\"Level2Entry\" href=\"https://www.tibia.com/charactertrade/?subtopic=ownbids\">My
+        Bids</a></li><li class=\"Level2Block MobileNavigationLinkContainer\" id=\"owncharactertrades\"><a
+        class=\"Level2Entry\" href=\"https://www.tibia.com/charactertrade/?subtopic=owncharactertrades\">My
+        Auctions</a></li><li class=\"Level2Block MobileNavigationLinkContainer\" id=\"watchedcharactertrades\"><a
+        class=\"Level2Entry\" href=\"https://www.tibia.com/charactertrade/?subtopic=watchedcharactertrades\">My
+        Watched Auctions</a></li></ul></li><li class=\"Level1Block\" id=\"support\"><div
+        class=\"Level1Entry\" onClick=\"MenuItemAction('support')\" ;>Support</div><ul
+        class=\"\"><li class=\"Level2Block MobileNavigationLinkContainer\" id=\"gethelp\"><a
+        class=\"Level2Entry\" href=\"https://www.tibia.com/support/?subtopic=gethelp\">FAQ</a></li><li
+        class=\"Level2Block MobileNavigationLinkContainer\" id=\"tibiarules\"><a class=\"Level2Entry\"
+        href=\"https://www.tibia.com/support/?subtopic=tibiarules\">Tibia Rules</a></li><li
+        class=\"Level2Block MobileNavigationLinkContainer\" id=\"parentsguide\"><a
+        class=\"Level2Entry\" href=\"https://www.tibia.com/support/?subtopic=parentsguide\">Parents'
+        Guide</a></li><li class=\"Level2Block MobileNavigationLinkContainer\" id=\"legaldocuments\"><a
+        class=\"Level2Entry\" href=\"https://www.tibia.com/support/?subtopic=legaldocuments\">Legal
+        Documents</a></li></ul></li></ul></nav></header> </div>\n<div class=\"main-menu\">\n<div
+        id=\"MenuColumn\">\n<div id=\"LeftArtwork\">\n<a href=\"https://www.tibia.com/mmorpg/free-multiplayer-online-role-playing-game.php\"><img
+        id=\"TibiaLogoArtworkTop\" src=\"https://static.tibia.com/images/global/header/tibia-logo-artwork-top.gif\"
+        alt=\"logoartwork\" /></a>\n<img id=\"LogoLink\" src=\"https://static.tibia.com/images/global/header/tibia-logo-artwork-string.gif\"
+        onClick=\"window.location = 'https://www.tibia.com/abouttibia/?subtopic=aboutcipsoft';\"
+        alt=\"logoartwork\" />\n</div>\n<div class=\"SmallMenuBorder BorderTop\" style=\"background-image:url(https://static.tibia.com/images/global/general/box-top-large.png);\"></div>\n<div
+        class=\"SmallMenuBox\">\n<div class=\"SmallBoxTop\" style=\"background-image:url(https://static.tibia.com/images/global/general/box-top.gif)\"></div>\n<div
+        class=\"SmallBoxBorder\" style=\"background-image:url(https://static.tibia.com/images/global/general/chain.gif)\"></div>\n<div
+        class=\"SmallBoxButtonContainer\" style=\"background-image:url(https://static.tibia.com/images/global/loginbox/loginbox-textfield-background.gif)\">\n<div
+        id=\"PlayNowContainer\"><form class=\"MediumButtonForm\" action=\"https://www.tibia.com/account/?subtopic=accountmanagement\"
+        method=\"post\"><input type=\"hidden\" name=\"page\" value=\"overview\" /><div
+        class=\"MediumButtonBackground\" style=\"background-image:url(https://static.tibia.com/images/global/buttons/mediumbutton.gif)\"
+        onMouseOver=\"MouseOverMediumButton(this);\" onMouseOut=\"MouseOutMediumButton(this);\"><div
+        class=\"MediumButtonOver\" style=\"background-image:url(https://static.tibia.com/images/global/buttons/mediumbutton-over.gif)\"
+        onMouseOver=\"MouseOverMediumButton(this);\" onMouseOut=\"MouseOutMediumButton(this);\"></div><input
+        class=\"MediumButtonText\" type=\"image\" name=\"Login\" alt=\"Login\" src=\"https://static.tibia.com/images/global/buttons/mediumbutton_login.png\"
+        /></div></form></div>\n</div>\n<div class=\"Loginstatus\" style=\"background-image:url(https://static.tibia.com/images/global/loginbox/loginbox-textfield-background.gif)\">\n<div
+        id=\"LoginstatusText\" onClick=\"LoginstatusTextAction(this);\" onMouseOver=\"MouseOverLoginBoxText(this);\"
+        onMouseOut=\"MouseOutLoginBoxText(this);\"><div id=\"LoginstatusText_1\" class=\"LoginstatusText\"
+        style=\"background-image:url(https://static.tibia.com/images/global/loginbox/loginbox-font-create-account.gif)\"></div><div
+        id=\"LoginstatusText_2\" class=\"LoginstatusText\" style=\"background-image:url(https://static.tibia.com/images/global/loginbox/loginbox-font-create-account-over.gif)\"></div></div>\n</div>\n<div
+        class=\"SmallBoxBorder BorderRight\" style=\"background-image:url(https://static.tibia.com/images/global/general/chain.gif)\"></div>\n<div
+        class=\"Loginstatus SmallBoxBottom\" style=\"background-image:url(https://static.tibia.com/images/global/general/box-bottom.gif)\"></div>\n</div>\n<div
+        class=\"SmallMenuBox\" id=\"DownloadBox\">\n<div class=\"SmallBoxTop\" style=\"background-image:url(https://static.tibia.com/images/global/general/box-top.gif)\"></div>\n<div
+        class=\"SmallBoxBorder\" style=\"background-image:url(https://static.tibia.com/images/global/general/chain.gif);\"></div>\n<div
+        class=\"SmallBoxButtonContainer\" style=\"background-image:url(https://static.tibia.com/images/global/loginbox/loginbox-textfield-background.gif)\">\n<div
+        id=\"PlayNowContainer\"><form class=\"MediumButtonForm\" action=\"https://www.tibia.com/account/?subtopic=downloadclient&step=downloadagreement\"
+        method=\"post\"><div class=\"MediumButtonBackground\" style=\"background-image:url(https://static.tibia.com/images/global/buttons/mediumbutton.gif)\"
+        onMouseOver=\"MouseOverMediumButton(this);\" onMouseOut=\"MouseOutMediumButton(this);\"><div
+        class=\"MediumButtonOver\" style=\"background-image:url(https://static.tibia.com/images/global/buttons/mediumbutton-over.gif)\"
+        onMouseOver=\"MouseOverMediumButton(this);\" onMouseOut=\"MouseOutMediumButton(this);\"></div><input
+        class=\"MediumButtonText\" type=\"image\" name=\"Download\" alt=\"Download\"
+        src=\"https://static.tibia.com/images/global/buttons/mediumbutton_download.png\"
+        /></div></form></div>\n</div>\n<div class=\"SmallBoxBorder BorderRight\" style=\"background-image:url(https://static.tibia.com/images/global/general/chain.gif);\"></div>\n<div
+        class=\"Loginstatus SmallBoxBottom\" style=\"background-image:url(https://static.tibia.com/images/global/general/box-bottom.gif);\"></div>\n</div>\n<div
+        class=\"SmallMenuBorder BorderBottom\" style=\"background-image:url(https://static.tibia.com/images/global/general/box-bottom-large.png);\"></div><div
+        id='Menu'>\n<div id='MenuTop' style='background-image:url(https://static.tibia.com/images/global/general/box-top.gif);'></div>\n<div
+        id='news' class='menuitem'>\n<span onClick=\"MenuItemAction('news')\">\n<div
+        class='MenuButton' style='background-image:url(https://static.tibia.com/images/global/menu/button-background.gif);'>\n<div
+        onMouseOver='MouseOverMenuItem(this);' onMouseOut='MouseOutMenuItem(this);'><div
+        class='Button' style='background-image:url(https://static.tibia.com/images/global/menu/button-background-over.gif);'></div>\n<span
+        id='news_Lights' class='Lights'>\n<div class='light_lu' style='background-image:url(https://static.tibia.com/images/global/menu/green-light.gif);'></div>\n<div
+        class='light_ld' style='background-image:url(https://static.tibia.com/images/global/menu/green-light.gif);'></div>\n<div
+        class='light_ru' style='background-image:url(https://static.tibia.com/images/global/menu/green-light.gif);'></div>\n</span>\n<div
+        id='news_Icon' class='Icon' style='background-image:url(https://static.tibia.com/images/global/menu/icon-news.gif);'></div>\n<div
+        id='news_Label' class='Label' style='background-image:url(https://static.tibia.com/images/global/menu/label-news.png);'></div>\n<div
+        id='news_Extend' class='Extend' style='background-image:url(https://static.tibia.com/images/global/general/plus.gif);'></div>\n</div>\n</div>\n</span>\n<div
+        id='news_Submenu' class='Submenu'>\n<a href='https://www.tibia.com/news/?subtopic=latestnews'>\n<div
+        id='submenu_latestnews' class='Submenuitem' onMouseOver='MouseOverSubmenuItem(this)'
+        onMouseOut='MouseOutSubmenuItem(this)'>\n<div class='LeftChain' style='background-image:url(https://static.tibia.com/images/global/general/chain.gif);'></div>\n<div
+        id='ActiveSubmenuItemIcon_latestnews' class='ActiveSubmenuItemIcon' style='background-image:url(https://static.tibia.com/images/global/menu/icon-activesubmenu.gif);'></div>\n<div
+        id='ActiveSubmenuItemLabel_latestnews' class='SubmenuitemLabel'>Latest News</div>\n<div
+        class='RightChain' style='background-image:url(https://static.tibia.com/images/global/general/chain.gif);'></div>\n</div>\n</a>\n<a
+        href='https://www.tibia.com/news/?subtopic=newsarchive'>\n<div id='submenu_newsarchive'
+        class='Submenuitem' onMouseOver='MouseOverSubmenuItem(this)' onMouseOut='MouseOutSubmenuItem(this)'>\n<div
+        class='LeftChain' style='background-image:url(https://static.tibia.com/images/global/general/chain.gif);'></div>\n<div
+        id='ActiveSubmenuItemIcon_newsarchive' class='ActiveSubmenuItemIcon' style='background-image:url(https://static.tibia.com/images/global/menu/icon-activesubmenu.gif);'></div>\n<div
+        id='ActiveSubmenuItemLabel_newsarchive' class='SubmenuitemLabel'>News Archive</div>\n<div
+        class='RightChain' style='background-image:url(https://static.tibia.com/images/global/general/chain.gif);'></div>\n</div>\n</a>\n<a
+        href='https://www.tibia.com/news/?subtopic=eventcalendar'>\n<div id='submenu_eventcalendar'
+        class='Submenuitem' onMouseOver='MouseOverSubmenuItem(this)' onMouseOut='MouseOutSubmenuItem(this)'>\n<div
+        class='LeftChain' style='background-image:url(https://static.tibia.com/images/global/general/chain.gif);'></div>\n<div
+        id='ActiveSubmenuItemIcon_eventcalendar' class='ActiveSubmenuItemIcon' style='background-image:url(https://static.tibia.com/images/global/menu/icon-activesubmenu.gif);'></div>\n<div
+        id='ActiveSubmenuItemLabel_eventcalendar' class='SubmenuitemLabel'>Event Schedule</div>\n<div
+        class='RightChain' style='background-image:url(https://static.tibia.com/images/global/general/chain.gif);'></div>\n</div>\n</a>\n</div>\n</div>\n<div
+        id='abouttibia' class='menuitem'>\n<span onClick=\"MenuItemAction('abouttibia')\">\n<div
+        class='MenuButton' style='background-image:url(https://static.tibia.com/images/global/menu/button-background.gif);'>\n<div
+        onMouseOver='MouseOverMenuItem(this);' onMouseOut='MouseOutMenuItem(this);'><div
+        class='Button' style='background-image:url(https://static.tibia.com/images/global/menu/button-background-over.gif);'></div>\n<span
+        id='abouttibia_Lights' class='Lights'>\n<div class='light_lu' style='background-image:url(https://static.tibia.com/images/global/menu/green-light.gif);'></div>\n<div
+        class='light_ld' style='background-image:url(https://static.tibia.com/images/global/menu/green-light.gif);'></div>\n<div
+        class='light_ru' style='background-image:url(https://static.tibia.com/images/global/menu/green-light.gif);'></div>\n</span>\n<div
+        id='abouttibia_Icon' class='Icon' style='background-image:url(https://static.tibia.com/images/global/menu/icon-abouttibia.gif);'></div>\n<div
+        id='abouttibia_Label' class='Label' style='background-image:url(https://static.tibia.com/images/global/menu/label-abouttibia.png);'></div>\n<div
+        id='abouttibia_Extend' class='Extend' style='background-image:url(https://static.tibia.com/images/global/general/plus.gif);'></div>\n</div>\n</div>\n</span>\n<div
+        id='abouttibia_Submenu' class='Submenu'>\n<a href='https://www.tibia.com/abouttibia/?subtopic=whatistibia'>\n<div
+        id='submenu_whatistibia' class='Submenuitem' onMouseOver='MouseOverSubmenuItem(this)'
+        onMouseOut='MouseOutSubmenuItem(this)'>\n<div class='LeftChain' style='background-image:url(https://static.tibia.com/images/global/general/chain.gif);'></div>\n<div
+        id='ActiveSubmenuItemIcon_whatistibia' class='ActiveSubmenuItemIcon' style='background-image:url(https://static.tibia.com/images/global/menu/icon-activesubmenu.gif);'></div>\n<div
+        id='ActiveSubmenuItemLabel_whatistibia' class='SubmenuitemLabel'>What Is Tibia?</div>\n<div
+        class='RightChain' style='background-image:url(https://static.tibia.com/images/global/general/chain.gif);'></div>\n</div>\n</a>\n<a
+        href='https://www.tibia.com/abouttibia/?subtopic=screenshots'>\n<div id='submenu_screenshots'
+        class='Submenuitem' onMouseOver='MouseOverSubmenuItem(this)' onMouseOut='MouseOutSubmenuItem(this)'>\n<div
+        class='LeftChain' style='background-image:url(https://static.tibia.com/images/global/general/chain.gif);'></div>\n<div
+        id='ActiveSubmenuItemIcon_screenshots' class='ActiveSubmenuItemIcon' style='background-image:url(https://static.tibia.com/images/global/menu/icon-activesubmenu.gif);'></div>\n<div
+        id='ActiveSubmenuItemLabel_screenshots' class='SubmenuitemLabel'>Screenshots</div>\n<div
+        class='RightChain' style='background-image:url(https://static.tibia.com/images/global/general/chain.gif);'></div>\n</div>\n</a>\n<a
+        href='https://www.tibia.com/abouttibia/?subtopic=gamefeatures'>\n<div id='submenu_gamefeatures'
+        class='Submenuitem' onMouseOver='MouseOverSubmenuItem(this)' onMouseOut='MouseOutSubmenuItem(this)'>\n<div
+        class='LeftChain' style='background-image:url(https://static.tibia.com/images/global/general/chain.gif);'></div>\n<div
+        id='ActiveSubmenuItemIcon_gamefeatures' class='ActiveSubmenuItemIcon' style='background-image:url(https://static.tibia.com/images/global/menu/icon-activesubmenu.gif);'></div>\n<div
+        id='ActiveSubmenuItemLabel_gamefeatures' class='SubmenuitemLabel'>Game Features</div>\n<div
+        class='RightChain' style='background-image:url(https://static.tibia.com/images/global/general/chain.gif);'></div>\n</div>\n</a>\n<a
+        href='https://www.tibia.com/abouttibia/?subtopic=premiumfeatures'>\n<div id='submenu_premiumfeatures'
+        class='Submenuitem' onMouseOver='MouseOverSubmenuItem(this)' onMouseOut='MouseOutSubmenuItem(this)'>\n<div
+        class='LeftChain' style='background-image:url(https://static.tibia.com/images/global/general/chain.gif);'></div>\n<div
+        id='ActiveSubmenuItemIcon_premiumfeatures' class='ActiveSubmenuItemIcon' style='background-image:url(https://static.tibia.com/images/global/menu/icon-activesubmenu.gif);'></div>\n<div
+        id='ActiveSubmenuItemLabel_premiumfeatures' class='SubmenuitemLabel'>Premium
+        Features</div>\n<div class='RightChain' style='background-image:url(https://static.tibia.com/images/global/general/chain.gif);'></div>\n</div>\n</a>\n<a
+        href='https://www.tibia.com/abouttibia/?subtopic=aboutcipsoft'>\n<div id='submenu_aboutcipsoft'
+        class='Submenuitem' onMouseOver='MouseOverSubmenuItem(this)' onMouseOut='MouseOutSubmenuItem(this)'>\n<div
+        class='LeftChain' style='background-image:url(https://static.tibia.com/images/global/general/chain.gif);'></div>\n<div
+        id='ActiveSubmenuItemIcon_aboutcipsoft' class='ActiveSubmenuItemIcon' style='background-image:url(https://static.tibia.com/images/global/menu/icon-activesubmenu.gif);'></div>\n<div
+        id='ActiveSubmenuItemLabel_aboutcipsoft' class='SubmenuitemLabel'>About CipSoft</div>\n<div
+        class='RightChain' style='background-image:url(https://static.tibia.com/images/global/general/chain.gif);'></div>\n</div>\n</a>\n</div>\n</div>\n<div
+        id='gameguides' class='menuitem'>\n<span onClick=\"MenuItemAction('gameguides')\">\n<div
+        class='MenuButton' style='background-image:url(https://static.tibia.com/images/global/menu/button-background.gif);'>\n<div
+        onMouseOver='MouseOverMenuItem(this);' onMouseOut='MouseOutMenuItem(this);'><div
+        class='Button' style='background-image:url(https://static.tibia.com/images/global/menu/button-background-over.gif);'></div>\n<span
+        id='gameguides_Lights' class='Lights'>\n<div class='light_lu' style='background-image:url(https://static.tibia.com/images/global/menu/green-light.gif);'></div>\n<div
+        class='light_ld' style='background-image:url(https://static.tibia.com/images/global/menu/green-light.gif);'></div>\n<div
+        class='light_ru' style='background-image:url(https://static.tibia.com/images/global/menu/green-light.gif);'></div>\n</span>\n<div
+        id='gameguides_Icon' class='Icon' style='background-image:url(https://static.tibia.com/images/global/menu/icon-gameguides.gif);'></div>\n<div
+        id='gameguides_Label' class='Label' style='background-image:url(https://static.tibia.com/images/global/menu/label-gameguides.png);'></div>\n<div
+        id='gameguides_Extend' class='Extend' style='background-image:url(https://static.tibia.com/images/global/general/plus.gif);'></div>\n</div>\n</div>\n</span>\n<div
+        id='gameguides_Submenu' class='Submenu'>\n<a href='https://www.tibia.com/gameguides/?subtopic=quickstart'>\n<div
+        id='submenu_quickstart' class='Submenuitem' onMouseOver='MouseOverSubmenuItem(this)'
+        onMouseOut='MouseOutSubmenuItem(this)'>\n<div class='LeftChain' style='background-image:url(https://static.tibia.com/images/global/general/chain.gif);'></div>\n<div
+        id='ActiveSubmenuItemIcon_quickstart' class='ActiveSubmenuItemIcon' style='background-image:url(https://static.tibia.com/images/global/menu/icon-activesubmenu.gif);'></div>\n<div
+        id='ActiveSubmenuItemLabel_quickstart' class='SubmenuitemLabel'>Quickstart</div>\n<div
+        class='RightChain' style='background-image:url(https://static.tibia.com/images/global/general/chain.gif);'></div>\n</div>\n</a>\n<a
+        href='https://www.tibia.com/gameguides/?subtopic=manual'>\n<div id='submenu_manual'
+        class='Submenuitem' onMouseOver='MouseOverSubmenuItem(this)' onMouseOut='MouseOutSubmenuItem(this)'>\n<div
+        class='LeftChain' style='background-image:url(https://static.tibia.com/images/global/general/chain.gif);'></div>\n<div
+        id='ActiveSubmenuItemIcon_manual' class='ActiveSubmenuItemIcon' style='background-image:url(https://static.tibia.com/images/global/menu/icon-activesubmenu.gif);'></div>\n<div
+        id='ActiveSubmenuItemLabel_manual' class='SubmenuitemLabel'>Manual</div>\n<div
+        class='RightChain' style='background-image:url(https://static.tibia.com/images/global/general/chain.gif);'></div>\n</div>\n</a>\n<a
+        href='https://www.tibia.com/gameguides/?subtopic=securityhints'>\n<div id='submenu_securityhints'
+        class='Submenuitem' onMouseOver='MouseOverSubmenuItem(this)' onMouseOut='MouseOutSubmenuItem(this)'>\n<div
+        class='LeftChain' style='background-image:url(https://static.tibia.com/images/global/general/chain.gif);'></div>\n<div
+        id='ActiveSubmenuItemIcon_securityhints' class='ActiveSubmenuItemIcon' style='background-image:url(https://static.tibia.com/images/global/menu/icon-activesubmenu.gif);'></div>\n<div
+        id='ActiveSubmenuItemLabel_securityhints' class='SubmenuitemLabel'>Security
+        Hints</div>\n<div class='RightChain' style='background-image:url(https://static.tibia.com/images/global/general/chain.gif);'></div>\n</div>\n</a>\n</div>\n</div>\n<div
+        id='library' class='menuitem'>\n<span onClick=\"MenuItemAction('library')\">\n<div
+        class='MenuButton' style='background-image:url(https://static.tibia.com/images/global/menu/button-background.gif);'>\n<div
+        onMouseOver='MouseOverMenuItem(this);' onMouseOut='MouseOutMenuItem(this);'><div
+        class='Button' style='background-image:url(https://static.tibia.com/images/global/menu/button-background-over.gif);'></div>\n<span
+        id='library_Lights' class='Lights'>\n<div class='light_lu' style='background-image:url(https://static.tibia.com/images/global/menu/green-light.gif);'></div>\n<div
+        class='light_ld' style='background-image:url(https://static.tibia.com/images/global/menu/green-light.gif);'></div>\n<div
+        class='light_ru' style='background-image:url(https://static.tibia.com/images/global/menu/green-light.gif);'></div>\n</span>\n<div
+        id='library_Icon' class='Icon' style='background-image:url(https://static.tibia.com/images/global/menu/icon-library.gif);'></div>\n<div
+        id='library_Label' class='Label' style='background-image:url(https://static.tibia.com/images/global/menu/label-library.png);'></div>\n<div
+        id='library_Extend' class='Extend' style='background-image:url(https://static.tibia.com/images/global/general/plus.gif);'></div>\n</div>\n</div>\n</span>\n<div
+        id='library_Submenu' class='Submenu'>\n<a href='https://www.tibia.com/library/?subtopic=creatures'>\n<div
+        id='submenu_creatures' class='Submenuitem' onMouseOver='MouseOverSubmenuItem(this)'
+        onMouseOut='MouseOutSubmenuItem(this)'>\n<div class='LeftChain' style='background-image:url(https://static.tibia.com/images/global/general/chain.gif);'></div>\n<div
+        id='ActiveSubmenuItemIcon_creatures' class='ActiveSubmenuItemIcon' style='background-image:url(https://static.tibia.com/images/global/menu/icon-activesubmenu.gif);'></div>\n<div
+        id='ActiveSubmenuItemLabel_creatures' class='SubmenuitemLabel'>Creatures</div>\n<div
+        class='RightChain' style='background-image:url(https://static.tibia.com/images/global/general/chain.gif);'></div>\n</div>\n</a>\n<a
+        href='https://www.tibia.com/library/?subtopic=boostablebosses'>\n<div id='submenu_boostablebosses'
+        class='Submenuitem' onMouseOver='MouseOverSubmenuItem(this)' onMouseOut='MouseOutSubmenuItem(this)'>\n<div
+        class='LeftChain' style='background-image:url(https://static.tibia.com/images/global/general/chain.gif);'></div>\n<div
+        id='ActiveSubmenuItemIcon_boostablebosses' class='ActiveSubmenuItemIcon' style='background-image:url(https://static.tibia.com/images/global/menu/icon-activesubmenu.gif);'></div>\n<div
+        id='ActiveSubmenuItemLabel_boostablebosses' class='SubmenuitemLabel'>Boostable
+        Bosses</div>\n<div class='RightChain' style='background-image:url(https://static.tibia.com/images/global/general/chain.gif);'></div>\n</div>\n</a>\n<a
+        href='https://www.tibia.com/library/?subtopic=spells'>\n<div id='submenu_spells'
+        class='Submenuitem' onMouseOver='MouseOverSubmenuItem(this)' onMouseOut='MouseOutSubmenuItem(this)'>\n<div
+        class='LeftChain' style='background-image:url(https://static.tibia.com/images/global/general/chain.gif);'></div>\n
+        <div id='ActiveSubmenuItemIcon_spells' class='ActiveSubmenuItemIcon' style='background-image:url(https://static.tibia.com/images/global/menu/icon-activesubmenu.gif);'></div>\n<div
+        id='ActiveSubmenuItemLabel_spells' class='SubmenuitemLabel'>Spells</div>\n<div
+        class='RightChain' style='background-image:url(https://static.tibia.com/images/global/general/chain.gif);'></div>\n</div>\n</a>\n<a
+        href='https://www.tibia.com/library/?subtopic=achievements'>\n<div id='submenu_achievements'
+        class='Submenuitem' onMouseOver='MouseOverSubmenuItem(this)' onMouseOut='MouseOutSubmenuItem(this)'>\n<div
+        class='LeftChain' style='background-image:url(https://static.tibia.com/images/global/general/chain.gif);'></div>\n<div
+        id='ActiveSubmenuItemIcon_achievements' class='ActiveSubmenuItemIcon' style='background-image:url(https://static.tibia.com/images/global/menu/icon-activesubmenu.gif);'></div>\n<div
+        id='ActiveSubmenuItemLabel_achievements' class='SubmenuitemLabel'>Achievements</div>\n<div
+        class='RightChain' style='background-image:url(https://static.tibia.com/images/global/general/chain.gif);'></div>\n</div>\n</a>\n<a
+        href='https://www.tibia.com/library/?subtopic=worldquests'>\n<div id='submenu_worldquests'
+        class='Submenuitem' onMouseOver='MouseOverSubmenuItem(this)' onMouseOut='MouseOutSubmenuItem(this)'>\n<div
+        class='LeftChain' style='background-image:url(https://static.tibia.com/images/global/general/chain.gif);'></div>\n<div
+        id='ActiveSubmenuItemIcon_worldquests' class='ActiveSubmenuItemIcon' style='background-image:url(https://static.tibia.com/images/global/menu/icon-activesubmenu.gif);'></div>\n<div
+        id='ActiveSubmenuItemLabel_worldquests' class='SubmenuitemLabel'>World Quests</div>\n<div
+        class='RightChain' style='background-image:url(https://static.tibia.com/images/global/general/chain.gif);'></div>\n</div>\n</a>\n<a
+        href='https://www.tibia.com/library/?subtopic=experiencetable'>\n<div id='submenu_experiencetable'
+        class='Submenuitem' onMouseOver='MouseOverSubmenuItem(this)' onMouseOut='MouseOutSubmenuItem(this)'>\n<div
+        class='LeftChain' style='background-image:url(https://static.tibia.com/images/global/general/chain.gif);'></div>\n<div
+        id='ActiveSubmenuItemIcon_experiencetable' class='ActiveSubmenuItemIcon' style='background-image:url(https://static.tibia.com/images/global/menu/icon-activesubmenu.gif);'></div>\n<div
+        id='ActiveSubmenuItemLabel_experiencetable' class='SubmenuitemLabel'>Experience
+        Table</div>\n<div class='RightChain' style='background-image:url(https://static.tibia.com/images/global/general/chain.gif);'></div>\n</div>\n</a>\n<a
+        href='https://www.tibia.com/library/?subtopic=maps'>\n<div id='submenu_maps'
+        class='Submenuitem' onMouseOver='MouseOverSubmenuItem(this)' onMouseOut='MouseOutSubmenuItem(this)'>\n<div
+        class='LeftChain' style='background-image:url(https://static.tibia.com/images/global/general/chain.gif);'></div>\n<div
+        id='ActiveSubmenuItemIcon_maps' class='ActiveSubmenuItemIcon' style='background-image:url(https://static.tibia.com/images/global/menu/icon-activesubmenu.gif);'></div>\n<div
+        id='ActiveSubmenuItemLabel_maps' class='SubmenuitemLabel'>Maps</div>\n<div
+        class='RightChain' style='background-image:url(https://static.tibia.com/images/global/general/chain.gif);'></div>\n</div>\n</a>\n<a
+        href='https://www.tibia.com/library/?subtopic=genesis'>\n<div id='submenu_genesis'
+        class='Submenuitem' onMouseOver='MouseOverSubmenuItem(this)' onMouseOut='MouseOutSubmenuItem(this)'>\n<div
+        class='LeftChain' style='background-image:url(https://static.tibia.com/images/global/general/chain.gif);'></div>\n<div
+        id='ActiveSubmenuItemIcon_genesis' class='ActiveSubmenuItemIcon' style='background-image:url(https://static.tibia.com/images/global/menu/icon-activesubmenu.gif);'></div>\n<div
+        id='ActiveSubmenuItemLabel_genesis' class='SubmenuitemLabel'>Genesis</div>\n<div
+        class='RightChain' style='background-image:url(https://static.tibia.com/images/global/general/chain.gif);'></div>\n</div>\n</a>\n<a
+        href='https://www.tibia.com/library/?subtopic=soundtrack'>\n<div id='submenu_soundtrack'
+        class='Submenuitem' onMouseOver='MouseOverSubmenuItem(this)' onMouseOut='MouseOutSubmenuItem(this)'>\n<div
+        class='LeftChain' style='background-image:url(https://static.tibia.com/images/global/general/chain.gif);'></div>\n<div
+        id='ActiveSubmenuItemIcon_soundtrack' class='ActiveSubmenuItemIcon' style='background-image:url(https://static.tibia.com/images/global/menu/icon-activesubmenu.gif);'></div>\n<div
+        id='ActiveSubmenuItemLabel_soundtrack' class='SubmenuitemLabel'>Soundtrack</div>\n<div
+        class='RightChain' style='background-image:url(https://static.tibia.com/images/global/general/chain.gif);'></div>\n</div>\n</a>\n</div>\n</div>\n<div
+        id='community' class='menuitem'>\n<span onClick=\"MenuItemAction('community')\">\n<div
+        class='MenuButton' style='background-image:url(https://static.tibia.com/images/global/menu/button-background.gif);'>\n<div
+        onMouseOver='MouseOverMenuItem(this);' onMouseOut='MouseOutMenuItem(this);'><div
+        class='Button' style='background-image:url(https://static.tibia.com/images/global/menu/button-background-over.gif);'></div>\n<span
+        id='community_Lights' class='Lights'>\n<div class='light_lu' style='background-image:url(https://static.tibia.com/images/global/menu/green-light.gif);'></div>\n<div
+        class='light_ld' style='background-image:url(https://static.tibia.com/images/global/menu/green-light.gif);'></div>\n<div
+        class='light_ru' style='background-image:url(https://static.tibia.com/images/global/menu/green-light.gif);'></div>\n</span>\n<div
+        id='community_Icon' class='Icon' style='background-image:url(https://static.tibia.com/images/global/menu/icon-community.gif);'></div>\n<div
+        id='community_Label' class='Label' style='background-image:url(https://static.tibia.com/images/global/menu/label-community.png);'></div>\n<div
+        id='community_Extend' class='Extend' style='background-image:url(https://static.tibia.com/images/global/general/plus.gif);'></div>\n</div>\n</div>\n</span>\n<div
+        id='community_Submenu' class='Submenu'>\n<a href='https://www.tibia.com/community/?subtopic=characters'>\n<div
+        id='submenu_characters' class='Submenuitem' onMouseOver='MouseOverSubmenuItem(this)'
+        onMouseOut='MouseOutSubmenuItem(this)'>\n<div class='LeftChain' style='background-image:url(https://static.tibia.com/images/global/general/chain.gif);'></div>\n<div
+        id='ActiveSubmenuItemIcon_characters' class='ActiveSubmenuItemIcon' style='background-image:url(https://static.tibia.com/images/global/menu/icon-activesubmenu.gif);'></div>\n<div
+        id='ActiveSubmenuItemLabel_characters' class='SubmenuitemLabel'>Characters</div>\n<div
+        class='RightChain' style='background-image:url(https://static.tibia.com/images/global/general/chain.gif);'></div>\n</div>\n</a>\n<a
+        href='https://www.tibia.com/community/?subtopic=worlds'>\n<div id='submenu_worlds'
+        class='Submenuitem' onMouseOver='MouseOverSubmenuItem(this)' onMouseOut='MouseOutSubmenuItem(this)'>\n<div
+        class='LeftChain' style='background-image:url(https://static.tibia.com/images/global/general/chain.gif);'></div>\n<div
+        id='ActiveSubmenuItemIcon_worlds' class='ActiveSubmenuItemIcon' style='background-image:url(https://static.tibia.com/images/global/menu/icon-activesubmenu.gif);'></div>\n<div
+        id='ActiveSubmenuItemLabel_worlds' class='SubmenuitemLabel'>Worlds</div>\n<div
+        class='RightChain' style='background-image:url(https://static.tibia.com/images/global/general/chain.gif);'></div>\n</div>\n</a>\n<a
+        href='https://www.tibia.com/community/?subtopic=highscores'>\n<div id='submenu_highscores'
+        class='Submenuitem' onMouseOver='MouseOverSubmenuItem(this)' onMouseOut='MouseOutSubmenuItem(this)'>\n<div
+        class='LeftChain' style='background-image:url(https://static.tibia.com/images/global/general/chain.gif);'></div>\n<div
+        id='ActiveSubmenuItemIcon_highscores' class='ActiveSubmenuItemIcon' style='background-image:url(https://static.tibia.com/images/global/menu/icon-activesubmenu.gif);'></div>\n<div
+        id='ActiveSubmenuItemLabel_highscores' class='SubmenuitemLabel'>Highscores</div>\n<div
+        class='RightChain' style='background-image:url(https://static.tibia.com/images/global/general/chain.gif);'></div>\n</div>\n</a>\n<a
+        href='https://www.tibia.com/community/?subtopic=leaderboards'>\n<div id='submenu_leaderboards'
+        class='Submenuitem' onMouseOver='MouseOverSubmenuItem(this)' onMouseOut='MouseOutSubmenuItem(this)'>\n<div
+        class='LeftChain' style='background-image:url(https://static.tibia.com/images/global/general/chain.gif);'></div>\n<div
+        id='ActiveSubmenuItemIcon_leaderboards' class='ActiveSubmenuItemIcon' style='background-image:url(https://static.tibia.com/images/global/menu/icon-activesubmenu.gif);'></div>\n<div
+        id='ActiveSubmenuItemLabel_leaderboards' class='SubmenuitemLabel'>Leaderboards</div>\n<div
+        class='RightChain' style='background-image:url(https://static.tibia.com/images/global/general/chain.gif);'></div>\n</div>\n</a>\n<a
+        href='https://www.tibia.com/community/?subtopic=killstatistics'>\n<div id='submenu_killstatistics'
+        class='Submenuitem' onMouseOver='MouseOverSubmenuItem(this)' onMouseOut='MouseOutSubmenuItem(this)'>\n<div
+        class='LeftChain' style='background-image:url(https://static.tibia.com/images/global/general/chain.gif);'></div>\n<div
+        id='ActiveSubmenuItemIcon_killstatistics' class='ActiveSubmenuItemIcon' style='background-image:url(https://static.tibia.com/images/global/menu/icon-activesubmenu.gif);'></div>\n<div
+        id='ActiveSubmenuItemLabel_killstatistics' class='SubmenuitemLabel'>Kill Statistics</div>\n<div
+        class='RightChain' style='background-image:url(https://static.tibia.com/images/global/general/chain.gif);'></div>\n</div>\n</a>\n<a
+        href='https://www.tibia.com/community/?subtopic=houses'>\n<div id='submenu_houses'
+        class='Submenuitem' onMouseOver='MouseOverSubmenuItem(this)' onMouseOut='MouseOutSubmenuItem(this)'>\n<div
+        class='LeftChain' style='background-image:url(https://static.tibia.com/images/global/general/chain.gif);'></div>\n<div
+        id='ActiveSubmenuItemIcon_houses' class='ActiveSubmenuItemIcon' style='background-image:url(https://static.tibia.com/images/global/menu/icon-activesubmenu.gif);'></div>\n<div
+        id='ActiveSubmenuItemLabel_houses' class='SubmenuitemLabel'>Houses</div>\n<div
+        class='RightChain' style='background-image:url(https://static.tibia.com/images/global/general/chain.gif);'></div>\n</div>\n</a>\n<a
+        href='https://www.tibia.com/community/?subtopic=guilds'>\n<div id='submenu_guilds'
+        class='Submenuitem' onMouseOver='MouseOverSubmenuItem(this)' onMouseOut='MouseOutSubmenuItem(this)'>\n<div
+        class='LeftChain' style='background-image:url(https://static.tibia.com/images/global/general/chain.gif);'></div>\n<div
+        id='ActiveSubmenuItemIcon_guilds' class='ActiveSubmenuItemIcon' style='background-image:url(https://static.tibia.com/images/global/menu/icon-activesubmenu.gif);'></div>\n<div
+        id='ActiveSubmenuItemLabel_guilds' class='SubmenuitemLabel'>Guilds</div>\n<div
+        class='RightChain' style='background-image:url(https://static.tibia.com/images/global/general/chain.gif);'></div>\n</div>\n</a>\n<a
+        href='https://www.tibia.com/community/?subtopic=polls'>\n<div id='submenu_polls'
+        class='Submenuitem' onMouseOver='MouseOverSubmenuItem(this)' onMouseOut='MouseOutSubmenuItem(this)'>\n<div
+        class='LeftChain' style='background-image:url(https://static.tibia.com/images/global/general/chain.gif);'></div>\n<div
+        id='ActiveSubmenuItemIcon_polls' class='ActiveSubmenuItemIcon' style='background-image:url(https://static.tibia.com/images/global/menu/icon-activesubmenu.gif);'></div>\n<div
+        id='ActiveSubmenuItemLabel_polls' class='SubmenuitemLabel'>Polls</div>\n<div
+        class='RightChain' style='background-image:url(https://static.tibia.com/images/global/general/chain.gif);'></div>\n</div>\n</a>\n<a
+        href='https://www.tibia.com/community/?subtopic=feedbackform'>\n<div id='submenu_feedbackform'
+        class='Submenuitem' onMouseOver='MouseOverSubmenuItem(this)' onMouseOut='MouseOutSubmenuItem(this)'>\n<div
+        class='LeftChain' style='background-image:url(https://static.tibia.com/images/global/general/chain.gif);'></div>\n<div
+        id='ActiveSubmenuItemIcon_feedbackform' class='ActiveSubmenuItemIcon' style='background-image:url(https://static.tibia.com/images/global/menu/icon-activesubmenu.gif);'></div>\n<div
+        id='ActiveSubmenuItemLabel_feedbackform' class='SubmenuitemLabel'>Feedback
+        Form</div>\n<div class='RightChain' style='background-image:url(https://static.tibia.com/images/global/general/chain.gif);'></div>\n</div>\n</a>\n<a
+        href='https://www.tibia.com/community/?subtopic=fansites'>\n<div id='submenu_fansites'
+        class='Submenuitem' onMouseOver='MouseOverSubmenuItem(this)' onMouseOut='MouseOutSubmenuItem(this)'>\n<div
+        class='LeftChain' style='background-image:url(https://static.tibia.com/images/global/general/chain.gif);'></div>\n<div
+        id='ActiveSubmenuItemIcon_fansites' class='ActiveSubmenuItemIcon' style='background-image:url(https://static.tibia.com/images/global/menu/icon-activesubmenu.gif);'></div>\n<div
+        id='ActiveSubmenuItemLabel_fansites' class='SubmenuitemLabel'>Fansites</div>\n<div
+        class='RightChain' style='background-image:url(https://static.tibia.com/images/global/general/chain.gif);'></div>\n</div>\n</a>\n<a
+        href='https://www.tibia.com/community/?subtopic=resellers'>\n<div id='submenu_resellers'
+        class='Submenuitem' onMouseOver='MouseOverSubmenuItem(this)' onMouseOut='MouseOutSubmenuItem(this)'>\n<div
+        class='LeftChain' style='background-image:url(https://static.tibia.com/images/global/general/chain.gif);'></div>\n<div
+        id='ActiveSubmenuItemIcon_resellers' class='ActiveSubmenuItemIcon' style='background-image:url(https://static.tibia.com/images/global/menu/icon-activesubmenu.gif);'></div>\n<div
+        id='ActiveSubmenuItemLabel_resellers' class='SubmenuitemLabel'>Resellers</div>\n<div
+        class='RightChain' style='background-image:url(https://static.tibia.com/images/global/general/chain.gif);'></div>\n</div>\n</a>\n</div>\n</div>\n<div
+        id='forum' class='menuitem'>\n<span onClick=\"MenuItemAction('forum')\">\n<div
+        class='MenuButton' style='background-image:url(https://static.tibia.com/images/global/menu/button-background.gif);'>\n<div
+        onMouseOver='MouseOverMenuItem(this);' onMouseOut='MouseOutMenuItem(this);'><div
+        class='Button' style='background-image:url(https://static.tibia.com/images/global/menu/button-background-over.gif);'></div>\n<span
+        id='forum_Lights' class='Lights'>\n<div class='light_lu' style='background-image:url(https://static.tibia.com/images/global/menu/green-light.gif);'></div>\n<div
+        class='light_ld' style='background-image:url(https://static.tibia.com/images/global/menu/green-light.gif);'></div>\n<div
+        class='light_ru' style='background-image:url(https://static.tibia.com/images/global/menu/green-light.gif);'></div>\n</span>\n<div
+        id='forum_Icon' class='Icon' style='background-image:url(https://static.tibia.com/images/global/menu/icon-forum.gif);'></div>\n<div
+        id='forum_Label' class='Label' style='background-image:url(https://static.tibia.com/images/global/menu/label-forum.png);'></div>\n<div
+        id='forum_Extend' class='Extend' style='background-image:url(https://static.tibia.com/images/global/general/plus.gif);'></div>\n</div>\n</div>\n</span>\n<div
+        id='forum_Submenu' class='Submenu'>\n<a href='https://www.tibia.com/forum/?subtopic=worldboards'>\n<div
+        id='submenu_worldboards' class='Submenuitem' onMouseOver='MouseOverSubmenuItem(this)'
+        onMouseOut='MouseOutSubmenuItem(this)'>\n<div class='LeftChain' style='background-image:url(https://static.tibia.com/images/global/general/chain.gif);'></div>\n<div
+        id='ActiveSubmenuItemIcon_worldboards' class='ActiveSubmenuItemIcon' style='background-image:url(https://static.tibia.com/images/global/menu/icon-activesubmenu.gif);'></div>\n<div
+        id='ActiveSubmenuItemLabel_worldboards' class='SubmenuitemLabel'>World Boards</div>\n<div
+        class='RightChain' style='background-image:url(https://static.tibia.com/images/global/general/chain.gif);'></div>\n</div>\n</a>\n<a
+        href='https://www.tibia.com/forum/?subtopic=tradeboards'>\n<div id='submenu_tradeboards'
+        class='Submenuitem' onMouseOver='MouseOverSubmenuItem(this)' onMouseOut='MouseOutSubmenuItem(this)'>\n<div
+        class='LeftChain' style='background-image:url(https://static.tibia.com/images/global/general/chain.gif);'></div>\n<div
+        id='ActiveSubmenuItemIcon_tradeboards' class='ActiveSubmenuItemIcon' style='background-image:url(https://static.tibia.com/images/global/menu/icon-activesubmenu.gif);'></div>\n<div
+        id='ActiveSubmenuItemLabel_tradeboards' class='SubmenuitemLabel'>Trade Boards</div>\n<div
+        class='RightChain' style='background-image:url(https://static.tibia.com/images/global/general/chain.gif);'></div>\n</div>\n</a>\n<a
+        href='https://www.tibia.com/forum/?subtopic=communityboards'>\n<div id='submenu_communityboards'
+        class='Submenuitem' onMouseOver='MouseOverSubmenuItem(this)' onMouseOut='MouseOutSubmenuItem(this)'>\n<div
+        class='LeftChain' style='background-image:url(https://static.tibia.com/images/global/general/chain.gif);'></div>\n<div
+        id='ActiveSubmenuItemIcon_communityboards' class='ActiveSubmenuItemIcon' style='background-image:url(https://static.tibia.com/images/global/menu/icon-activesubmenu.gif);'></div>\n<div
+        id='ActiveSubmenuItemLabel_communityboards' class='SubmenuitemLabel'>Community
+        Boards</div>\n<div class='RightChain' style='background-image:url(https://static.tibia.com/images/global/general/chain.gif);'></div>\n</div>\n</a>\n<a
+        href='https://www.tibia.com/forum/?subtopic=supportboards'>\n<div id='submenu_supportboards'
+        class='Submenuitem' onMouseOver='MouseOverSubmenuItem(this)' onMouseOut='MouseOutSubmenuItem(this)'>\n<div
+        class='LeftChain' style='background-image:url(https://static.tibia.com/images/global/general/chain.gif);'></div>\n<div
+        id='ActiveSubmenuItemIcon_supportboards' class='ActiveSubmenuItemIcon' style='background-image:url(https://static.tibia.com/images/global/menu/icon-activesubmenu.gif);'></div>\n<div
+        id='ActiveSubmenuItemLabel_supportboards' class='SubmenuitemLabel'>Support
+        Boards</div>\n<div class='RightChain' style='background-image:url(https://static.tibia.com/images/global/general/chain.gif);'></div>\n</div>\n</a>\n<a
+        href='https://www.tibia.com/forum/?subtopic=guildboards'>\n<div id='submenu_guildboards'
+        class='Submenuitem' onMouseOver='MouseOverSubmenuItem(this)' onMouseOut='MouseOutSubmenuItem(this)'>\n<div
+        class='LeftChain' style='background-image:url(https://static.tibia.com/images/global/general/chain.gif);'></div>\n<div
+        id='ActiveSubmenuItemIcon_guildboards' class='ActiveSubmenuItemIcon' style='background-image:url(https://static.tibia.com/images/global/menu/icon-activesubmenu.gif);'></div>\n<div
+        id='ActiveSubmenuItemLabel_guildboards' class='SubmenuitemLabel'>Guild Boards</div>\n<div
+        class='RightChain' style='background-image:url(https://static.tibia.com/images/global/general/chain.gif);'></div>\n</div>\n</a>\n<a
+        href='https://www.tibia.com/forum/?subtopic=forum&action=cm_post_archive'>\n<div
+        id='submenu_forum' class='Submenuitem' onMouseOver='MouseOverSubmenuItem(this)'
+        onMouseOut='MouseOutSubmenuItem(this)'>\n<div class='LeftChain' style='background-image:url(https://static.tibia.com/images/global/general/chain.gif);'></div>\n<div
+        id='ActiveSubmenuItemIcon_forum' class='ActiveSubmenuItemIcon' style='background-image:url(https://static.tibia.com/images/global/menu/icon-activesubmenu.gif);'></div>\n<div
+        id='ActiveSubmenuItemLabel_forum' class='SubmenuitemLabel'>CM Post Archive</div>\n<div
+        class='RightChain' style='background-image:url(https://static.tibia.com/images/global/general/chain.gif);'></div>\n</div>\n</a>\n</div>\n</div>\n<div
+        id='account' class='menuitem'>\n<span onClick=\"MenuItemAction('account')\">\n<div
+        class='MenuButton' style='background-image:url(https://static.tibia.com/images/global/menu/button-background.gif);'>\n<div
+        onMouseOver='MouseOverMenuItem(this);' onMouseOut='MouseOutMenuItem(this);'><div
+        class='Button' style='background-image:url(https://static.tibia.com/images/global/menu/button-background-over.gif);'></div>\n<span
+        id='account_Lights' class='Lights'>\n<div class='light_lu' style='background-image:url(https://static.tibia.com/images/global/menu/green-light.gif);'></div>\n<div
+        class='light_ld' style='background-image:url(https://static.tibia.com/images/global/menu/green-light.gif);'></div>\n<div
+        class='light_ru' style='background-image:url(https://static.tibia.com/images/global/menu/green-light.gif);'></div>\n</span>\n<div
+        id='account_Icon' class='Icon' style='background-image:url(https://static.tibia.com/images/global/menu/icon-account.gif);'></div>\n<div
+        id='account_Label' class='Label' style='background-image:url(https://static.tibia.com/images/global/menu/label-account.png);'></div>\n<div
+        id='account_Extend' class='Extend' style='background-image:url(https://static.tibia.com/images/global/general/plus.gif);'></div>\n</div>\n</div>\n</span>\n<div
+        id='account_Submenu' class='Submenu'>\n<a href='https://www.tibia.com/account/?subtopic=accountmanagement&amp;page=overview'>\n<div
+        id='submenu_accountmanagement' class='Submenuitem' onMouseOver='MouseOverSubmenuItem(this)'
+        onMouseOut='MouseOutSubmenuItem(this)'>\n<div class='LeftChain' style='background-image:url(https://static.tibia.com/images/global/general/chain.gif);'></div>\n<div
+        id='ActiveSubmenuItemIcon_accountmanagement' class='ActiveSubmenuItemIcon'
+        style='background-image:url(https://static.tibia.com/images/global/menu/icon-activesubmenu.gif);'></div>\n<div
+        id='ActiveSubmenuItemLabel_accountmanagement' class='SubmenuitemLabel'>Account
+        Management</div>\n<div class='RightChain' style='background-image:url(https://static.tibia.com/images/global/general/chain.gif);'></div>\n</div>\n</a>\n<a
+        href='https://www.tibia.com/account/?subtopic=createaccount'>\n<div id='submenu_createaccount'
+        class='Submenuitem' onMouseOver='MouseOverSubmenuItem(this)' onMouseOut='MouseOutSubmenuItem(this)'>\n<div
+        class='LeftChain' style='background-image:url(https://static.tibia.com/images/global/general/chain.gif);'></div>\n<div
+        id='ActiveSubmenuItemIcon_createaccount' class='ActiveSubmenuItemIcon' style='background-image:url(https://static.tibia.com/images/global/menu/icon-activesubmenu.gif);'></div>\n<div
+        id='ActiveSubmenuItemLabel_createaccount' class='SubmenuitemLabel'>Create
+        Account</div>\n<div class='RightChain' style='background-image:url(https://static.tibia.com/images/global/general/chain.gif);'></div>\n</div>\n</a>\n<a
+        href='https://www.tibia.com/account/?subtopic=downloadclient&step=downloadagreement'>\n<div
+        id='submenu_downloadclient' class='Submenuitem' onMouseOver='MouseOverSubmenuItem(this)'
+        onMouseOut='MouseOutSubmenuItem(this)'>\n<div class='LeftChain' style='background-image:url(https://static.tibia.com/images/global/general/chain.gif);'></div>\n<div
+        id='ActiveSubmenuItemIcon_downloadclient' class='ActiveSubmenuItemIcon' style='background-image:url(https://static.tibia.com/images/global/menu/icon-activesubmenu.gif);'></div>\n<div
+        id='ActiveSubmenuItemLabel_downloadclient' class='SubmenuitemLabel'>Download
+        Client</div>\n<div class='RightChain' style='background-image:url(https://static.tibia.com/images/global/general/chain.gif);'></div>\n</div>\n</a>\n<a
+        href='https://www.tibia.com/account/index.php?subtopic=redirectlogin&redirect=https%3A%2F%2Fwww.tibia.com%2Faccount%2F%3Fsubtopic%3Daccountmanagement%23Products%2BAvailable'>\n<div
+        id='submenu_webshop' class='Submenuitem' onMouseOver='MouseOverSubmenuItem(this)'
+        onMouseOut='MouseOutSubmenuItem(this)'>\n<div class='LeftChain' style='background-image:url(https://static.tibia.com/images/global/general/chain.gif);'></div>\n<div
+        id='ActiveSubmenuItemIcon_webshop' class='ActiveSubmenuItemIcon' style='background-image:url(https://static.tibia.com/images/global/menu/icon-activesubmenu.gif);'></div>\n<div
+        id='ActiveSubmenuItemLabel_webshop' class='SubmenuitemLabel'>Webshop</div>\n<div
+        class='RightChain' style='background-image:url(https://static.tibia.com/images/global/general/chain.gif);'></div>\n</div>\n</a>\n<a
+        href='https://www.tibia.com/account/?subtopic=lostaccount'>\n<div id='submenu_lostaccount'
+        class='Submenuitem' onMouseOver='MouseOverSubmenuItem(this)' onMouseOut='MouseOutSubmenuItem(this)'>\n<div
+        class='LeftChain' style='background-image:url(https://static.tibia.com/images/global/general/chain.gif);'></div>\n<div
+        id='ActiveSubmenuItemIcon_lostaccount' class='ActiveSubmenuItemIcon' style='background-image:url(https://static.tibia.com/images/global/menu/icon-activesubmenu.gif);'></div>\n<div
+        id='ActiveSubmenuItemLabel_lostaccount' class='SubmenuitemLabel'>Lost Account</div>\n<div
+        class='RightChain' style='background-image:url(https://static.tibia.com/images/global/general/chain.gif);'></div>\n</div>\n</a>\n</div>\n</div>\n<div
+        id='charactertrade' class='menuitem'>\n<span onClick=\"MenuItemAction('charactertrade')\">\n<div
+        class='MenuButton' style='background-image:url(https://static.tibia.com/images/global/menu/button-background.gif);'>\n<div
+        onMouseOver='MouseOverMenuItem(this);' onMouseOut='MouseOutMenuItem(this);'><div
+        class='Button' style='background-image:url(https://static.tibia.com/images/global/menu/button-background-over.gif);'></div>\n<span
+        id='charactertrade_Lights' class='Lights'>\n<div class='light_lu' style='background-image:url(https://static.tibia.com/images/global/menu/green-light.gif);'></div>\n<div
+        class='light_ld' style='background-image:url(https://static.tibia.com/images/global/menu/green-light.gif);'></div>\n<div
+        class='light_ru' style='background-image:url(https://static.tibia.com/images/global/menu/green-light.gif);'></div>\n</span>\n<div
+        id='charactertrade_Icon' class='Icon' style='background-image:url(https://static.tibia.com/images/global/menu/icon-charactertrade.gif);'></div>\n<div
+        id='charactertrade_Label' class='Label' style='background-image:url(https://static.tibia.com/images/global/menu/label-charactertrade.png);'></div>\n<div
+        id='charactertrade_Extend' class='Extend' style='background-image:url(https://static.tibia.com/images/global/general/plus.gif);'></div>\n</div>\n</div>\n</span>\n<div
+        id='charactertrade_Submenu' class='Submenu'>\n<a href='https://www.tibia.com/charactertrade/?subtopic=currentcharactertrades'>\n<div
+        id='submenu_currentcharactertrades' class='Submenuitem' onMouseOver='MouseOverSubmenuItem(this)'
+        onMouseOut='MouseOutSubmenuItem(this)'>\n<div class='LeftChain' style='background-image:url(https://static.tibia.com/images/global/general/chain.gif);'></div>\n<div
+        id='ActiveSubmenuItemIcon_currentcharactertrades' class='ActiveSubmenuItemIcon'
+        style='background-image:url(https://static.tibia.com/images/global/menu/icon-activesubmenu.gif);'></div>\n<div
+        id='ActiveSubmenuItemLabel_currentcharactertrades' class='SubmenuitemLabel'>Current
+        Auctions</div>\n<div class='RightChain' style='background-image:url(https://static.tibia.com/images/global/general/chain.gif);'></div>\n</div>\n</a>\n<a
+        href='https://www.tibia.com/charactertrade/?subtopic=pastcharactertrades'>\n<div
+        id='submenu_pastcharactertrades' class='Submenuitem' onMouseOver='MouseOverSubmenuItem(this)'
+        onMouseOut='MouseOutSubmenuItem(this)'>\n<div class='LeftChain' style='background-image:url(https://static.tibia.com/images/global/general/chain.gif);'></div>\n<div
+        id='ActiveSubmenuItemIcon_pastcharactertrades' class='ActiveSubmenuItemIcon'
+        style='background-image:url(https://static.tibia.com/images/global/menu/icon-activesubmenu.gif);'></div>\n<div
+        id='ActiveSubmenuItemLabel_pastcharactertrades' class='SubmenuitemLabel'>Auction
+        History</div>\n<div class='RightChain' style='background-image:url(https://static.tibia.com/images/global/general/chain.gif);'></div>\n</div>\n</a>\n<a
+        href='https://www.tibia.com/charactertrade/?subtopic=ownbids'>\n<div id='submenu_ownbids'
+        class='Submenuitem' onMouseOver='MouseOverSubmenuItem(this)' onMouseOut='MouseOutSubmenuItem(this)'>\n<div
+        class='LeftChain' style='background-image:url(https://static.tibia.com/images/global/general/chain.gif);'></div>\n<div
+        id='ActiveSubmenuItemIcon_ownbids' class='ActiveSubmenuItemIcon' style='background-image:url(https://static.tibia.com/images/global/menu/icon-activesubmenu.gif);'></div>\n<div
+        id='ActiveSubmenuItemLabel_ownbids' class='SubmenuitemLabel'>My Bids</div>\n<div
+        class='RightChain' style='background-image:url(https://static.tibia.com/images/global/general/chain.gif);'></div>\n</div>\n</a>\n<a
+        href='https://www.tibia.com/charactertrade/?subtopic=owncharactertrades'>\n<div
+        id='submenu_owncharactertrades' class='Submenuitem' onMouseOver='MouseOverSubmenuItem(this)'
+        onMouseOut='MouseOutSubmenuItem(this)'>\n<div class='LeftChain' style='background-image:url(https://static.tibia.com/images/global/general/chain.gif);'></div>\n<div
+        id='ActiveSubmenuItemIcon_owncharactertrades' class='ActiveSubmenuItemIcon'
+        style='background-image:url(https://static.tibia.com/images/global/menu/icon-activesubmenu.gif);'></div>\n<div
+        id='ActiveSubmenuItemLabel_owncharactertrades' class='SubmenuitemLabel'>My
+        Auctions</div>\n<div class='RightChain' style='background-image:url(https://static.tibia.com/images/global/general/chain.gif);'></div>\n</div>\n</a>\n<a
+        href='https://www.tibia.com/charactertrade/?subtopic=watchedcharactertrades'>\n<div
+        id='submenu_watchedcharactertrades' class='Submenuitem' onMouseOver='MouseOverSubmenuItem(this)'
+        onMouseOut='MouseOutSubmenuItem(this)'>\n<div class='LeftChain' style='background-image:url(https://static.tibia.com/images/global/general/chain.gif);'></div>\n<div
+        id='ActiveSubmenuItemIcon_watchedcharactertrades' class='ActiveSubmenuItemIcon'
+        style='background-image:url(https://static.tibia.com/images/global/menu/icon-activesubmenu.gif);'></div>\n<div
+        id='ActiveSubmenuItemLabel_watchedcharactertrades' class='SubmenuitemLabel'>My
+        Watched Auctions</div>\n<div class='RightChain' style='background-image:url(https://static.tibia.com/images/global/general/chain.gif);'></div>\n</div>\n</a>\n</div>\n</div>\n<div
+        id='support' class='menuitem'>\n<span onClick=\"MenuItemAction('support')\">\n<div
+        class='MenuButton' style='background-image:url(https://static.tibia.com/images/global/menu/button-background.gif);'>\n<div
+        onMouseOver='MouseOverMenuItem(this);' onMouseOut='MouseOutMenuItem(this);'><div
+        class='Button' style='background-image:url(https://static.tibia.com/images/global/menu/button-background-over.gif);'></div>\n<span
+        id='support_Lights' class='Lights'>\n<div class='light_lu' style='background-image:url(https://static.tibia.com/images/global/menu/green-light.gif);'></div>\n<div
+        class='light_ld' style='background-image:url(https://static.tibia.com/images/global/menu/green-light.gif);'></div>\n<div
+        class='light_ru' style='background-image:url(https://static.tibia.com/images/global/menu/green-light.gif);'></div>\n</span>\n<div
+        id='support_Icon' class='Icon' style='background-image:url(https://static.tibia.com/images/global/menu/icon-support.gif);'></div>\n<div
+        id='support_Label' class='Label' style='background-image:url(https://static.tibia.com/images/global/menu/label-support.png);'></div>\n<div
+        id='support_Extend' class='Extend' style='background-image:url(https://static.tibia.com/images/global/general/plus.gif);'></div>\n</div>\n</div>\n</span>\n<div
+        id='support_Submenu' class='Submenu'>\n<a href='https://www.tibia.com/support/?subtopic=gethelp'>\n<div
+        id='submenu_gethelp' class='Submenuitem' onMouseOver='MouseOverSubmenuItem(this)'
+        onMouseOut='MouseOutSubmenuItem(this)'>\n<div class='LeftChain' style='background-image:url(https://static.tibia.com/images/global/general/chain.gif);'></div>\n<div
+        id='ActiveSubmenuItemIcon_gethelp' class='ActiveSubmenuItemIcon' style='background-image:url(https://static.tibia.com/images/global/menu/icon-activesubmenu.gif);'></div>\n<div
+        id='ActiveSubmenuItemLabel_gethelp' class='SubmenuitemLabel'>FAQ</div>\n<div
+        class='RightChain' style='background-image:url(https://static.tibia.com/images/global/general/chain.gif);'></div>\n</div>\n</a>\n<a
+        href='https://www.tibia.com/support/?subtopic=tibiarules'>\n<div id='submenu_tibiarules'
+        class='Submenuitem' onMouseOver='MouseOverSubmenuItem(this)' onMouseOut='MouseOutSubmenuItem(this)'>\n<div
+        class='LeftChain' style='background-image:url(https://static.tibia.com/images/global/general/chain.gif);'></div>\n<div
+        id='ActiveSubmenuItemIcon_tibiarules' class='ActiveSubmenuItemIcon' style='background-image:url(https://static.tibia.com/images/global/menu/icon-activesubmenu.gif);'></div>\n<div
+        id='ActiveSubmenuItemLabel_tibiarules' class='SubmenuitemLabel'>Tibia Rules</div>\n<div
+        class='RightChain' style='background-image:url(https://static.tibia.com/images/global/general/chain.gif);'></div>\n</div>\n</a>\n<a
+        href='https://www.tibia.com/support/?subtopic=parentsguide'>\n<div id='submenu_parentsguide'
+        class='Submenuitem' onMouseOver='MouseOverSubmenuItem(this)' onMouseOut='MouseOutSubmenuItem(this)'>\n<div
+        class='LeftChain' style='background-image:url(https://static.tibia.com/images/global/general/chain.gif);'></div>\n<div
+        id='ActiveSubmenuItemIcon_parentsguide' class='ActiveSubmenuItemIcon' style='background-image:url(https://static.tibia.com/images/global/menu/icon-activesubmenu.gif);'></div>\n<div
+        id='ActiveSubmenuItemLabel_parentsguide' class='SubmenuitemLabel'>Parents'
+        Guide</div>\n<div class='RightChain' style='background-image:url(https://static.tibia.com/images/global/general/chain.gif);'></div>\n</div>\n</a>\n<a
+        href='https://www.tibia.com/support/?subtopic=legaldocuments'>\n<div id='submenu_legaldocuments'
+        class='Submenuitem' onMouseOver='MouseOverSubmenuItem(this)' onMouseOut='MouseOutSubmenuItem(this)'>\n<div
+        class='LeftChain' style='background-image:url(https://static.tibia.com/images/global/general/chain.gif);'></div>\n<div
+        id='ActiveSubmenuItemIcon_legaldocuments' class='ActiveSubmenuItemIcon' style='background-image:url(https://static.tibia.com/images/global/menu/icon-activesubmenu.gif);'></div>\n<div
+        id='ActiveSubmenuItemLabel_legaldocuments' class='SubmenuitemLabel'>Legal
+        Documents</div>\n<div class='RightChain' style='background-image:url(https://static.tibia.com/images/global/general/chain.gif);'></div>\n</div>\n</a>\n</div>\n</div>\n<div
+        id='MenuBottom' style='background-image:url(https://static.tibia.com/images/global/general/box-bottom.gif);'></div>\n</div>\n<script
+        type=\"text/javascript\">\nInitializePage();</script>\n</div>\n</div>\n<div
+        class=\"main-content Content\">\n<div id=\"\" class=\"Box\"><div class=\"Corner-tl\"
+        style=\"background-image:url(https://static.tibia.com/images/global/content/corner-tl.gif);\"></div><div
+        class=\"Corner-tr\" style=\"background-image:url(https://static.tibia.com/images/global/content/corner-tr.gif);\"></div><div
+        class=\"Border_1\" style=\"background-image:url(https://static.tibia.com/images/global/content/border-1.gif);\"></div><div
+        class=\"BorderTitleText\" style=\"background-image:url(https://static.tibia.com/images/global/content/cacheinfo_background.gif);
+        height: 28px;\"><div class=\"InfoBar\"><a class=\"InfoBarBlock\" href=\"https://www.twitch.tv/directory/game/Tibia\"
+        target=\"_blank\" rel=\"noopener noreferrer\"><img class=\"InfoBarBigLogo
+        NotOnMobile\" src=\"https://static.tibia.com/images/global/header/info/icon-twitch.png\"
+        /><img class=\"InfoBarSmallLogo\" src=\"https://static.tibia.com/images/global/header/info/icon-mobile-twitch.png\"
+        /><span class=\"InfoBarNumbers\"><img class=\"InfoBarSmallElement\" src=\"https://static.tibia.com/images/global/header/info/icon-streamers.png\"
+        /><span class=\"InfoBarSmallElement\">99</span><img class=\"InfoBarSmallElement\"
+        src=\"https://static.tibia.com/images/global/header/info/icon-viewers.png\"
+        /><span class=\"InfoBarSmallElement\">5882</span></span></a><a class=\"InfoBarBlock\"
+        href=\"https://www.youtube.com/channel/UCg5vFOB3tN8KGcJDyk6QQzQ/home\" target=\"_blank\"
+        rel=\"noopener noreferrer\"><img class=\"InfoBarBigLogo NotOnMobile\" src=\"https://static.tibia.com/images/global/header/info/icon-youtube.png\"
+        /><img class=\"InfoBarSmallLogo\" src=\"https://static.tibia.com/images/global/header/info/icon-mobile-youtube.png\"
+        /><span class=\"InfoBarNumbers\"><img class=\"InfoBarSmallElement\" src=\"https://static.tibia.com/images/global/header/info/icon-streamers.png\"
+        /><span class=\"InfoBarSmallElement\">6</span><img class=\"InfoBarSmallElement\"
+        src=\"https://static.tibia.com/images/global/header/info/icon-viewers.png\"
+        /><span class=\"InfoBarSmallElement\">14</span></span></a><a class=\"NotOnMobile\"
+        href=\"https://www.tibia.com/forum/?action=announcement&announcementid=87&boardid=89516\"><img
+        class=\"InfoBarBigLogo\" src=\"https://static.tibia.com/images/global/header/info/icon-download.png\"
+        /><span class=\"InfoBarNumbers\"><span class=\"InfoBarSmallElement\">Fankit</span></span></a><a
+        style=\"float:right;\" href=\"https://www.tibia.com/community/?subtopic=worlds\"><img
+        class=\"InfoBarBigLogo\" src=\"https://static.tibia.com/images/global/header/info/icon-players-online.png\"
+        /><span class=\"InfoBarNumbers\"><span class=\"InfoBarSmallElement\">13,188<span
+        class=\"NotOnMobile\"> Players Online</span></span></span></a></div></div><div
+        class=\"Border_1\" style=\"background-image:url(https://static.tibia.com/images/global/content/border-1.gif);\"></div><div
+        class=\"CornerWrapper-b\"><div class=\"Corner-bl\" style=\"background-image:url(https://static.tibia.com/images/global/content/corner-bl.gif);\"></div></div><div
+        class=\"CornerWrapper-b\"><div class=\"Corner-br\" style=\"background-image:url(https://static.tibia.com/images/global/content/corner-br.gif);\"></div></div></div>
+        <div id=\"RightArtwork\">\n<img id=\"Pedestal\" src=\"https://static.tibia.com/images/global/header/pedestal.gif\"
+        alt=\"Monster Pedestal Box\" /><br><img id=\"Monster\" title=\"Today's boosted
+        creature: Lizard Zaogun\" src=\"https://static.tibia.com/images/global/header/monsters/lizardzaogun.gif\"
+        onClick=\"window.location = 'https://www.tibia.com/library/?subtopic=creatures';\"
+        alt=\"Boosted Creature\" /><img id=\"Boss\" title=\"Today's boosted boss:
+        The Dread Maiden\" src=\"https://static.tibia.com/images/global/header/monsters/dreadmaiden.gif\"
+        onClick=\"window.location = 'https://www.tibia.com/library/?subtopic=boostablebosses';\"
+        alt=\"Boosted Boss\" /> </div>\n<div id=\"creatures\" class=\"Box\">\n<div
+        class=\"Corner-tl\" style=\"background-image:url(https://static.tibia.com/images/global/content/corner-tl.gif);\"></div>\n<div
+        class=\"Corner-tr\" style=\"background-image:url(https://static.tibia.com/images/global/content/corner-tr.gif);\"></div>\n<div
+        class=\"Border_1\" style=\"background-image:url(https://static.tibia.com/images/global/content/border-1.gif);\"></div>\n<div
+        class=\"BorderTitleText\" style=\"background-image:url(https://static.tibia.com/images/global/content/title-background-green.gif);\"></div><img
+        id=\"ContentBoxHeadline\" class=\"Title\" src=\"https://static.tibia.com/images/global/strings/headline-creatures.gif\"
+        alt=\"Contentbox headline\" />\n<div class=\"Border_2\">\n<div class=\"Border_3\">\n<div
+        class=\"BoxContent\" style=\"background-image:url(https://static.tibia.com/images/global/content/scroll.gif);\">\n<div
+        style=\"position: relative; height: 15px; width: 100%;\"> <a style=\"float:
+        right;\" href=\"https://www.tibia.com/library/?subtopic=creatures&race=emeralddamselfly\">next
+        <img src=\"https://static.tibia.com/images/gameguides/arrow_right.gif\" width=15
+        height=11 border=0></a> <a style=\"position: absolute;\" href=\"https://www.tibia.com/library/?subtopic=creatures&race=elfscout\"><img
+        src=\"https://static.tibia.com/images/gameguides/arrow_left.gif\" width=15
+        height=11 border=0> previous</a> <div style=\"position: absolute; width: 80%;
+        margin-left: 10%; margin-right: 10%; text-align: center;\"><a href=\"https://www.tibia.com/library/?subtopic=creatures\"><img
+        src=\"https://static.tibia.com/images/gameguides/arrow_up.gif\" width=11 height=15
+        border=0> back</a></div></div><div style=\"position: relative; top: 25px;
+        clear: both; \"><div style=\"height: 64px; margin-bottom: 5px;\"> <h2 style=\"float:
+        right;\">Elves</h2> <img src=\"https://static.tibia.com/images/library/elf.gif\"
+        /></div><div style=\"margin-bottom: 35px; clear: both;\"> <p>Elves are a very
+        ancient human-like race. They have a tall and beautiful figure. In former
+        days they travelled all over Tibia, now they have retreated to an area in
+        the north of Tibia where they live in dwellings made out of flourishing trees.
+        Some of them are quite hospitable, but others are very suspicious towards
+        any intruder and will try to repel him using their bows. Having a long history,
+        the Elves are very skilled in magic, and almost every Elf knows some spells.</p>
+        <p>Elves have 100 hitpoints. They are strong against holy damage. On the other
+        hand, they are weak against death damage. It takes 320 mana to convince these
+        creatures but they cannot be summoned. In addition, they are able to sense
+        invisible creatures.</p> <p>Elves yield 42 experience points. They carry gold
+        coins, leather boots, longswords, plums, studded helmets and sometimes other
+        items with them.</p> </div></div> </div>\n</div>\n</div>\n<div class=\"Border_1\"
+        style=\"background-image:url(https://static.tibia.com/images/global/content/border-1.gif);\"></div>\n<div
+        class=\"CornerWrapper-b\"><div class=\"Corner-bl\" style=\"background-image:url(https://static.tibia.com/images/global/content/corner-bl.gif);\"></div></div>\n<div
+        class=\"CornerWrapper-b\"><div class=\"Corner-br\" style=\"background-image:url(https://static.tibia.com/images/global/content/corner-br.gif);\"></div></div>\n</div>\n<div
+        id=\"Footer\" class=\"main-footer\">\nCopyright by CipSoft GmbH. All rights
+        reserved.<br />\n<a href=\"https://www.tibia.com/abouttibia/?subtopic=aboutcipsoft\">About
+        CipSoft</a> | <a href=\"https://www.tibia.com/support/?subtopic=legaldocuments&amp;page=agreement\">Service
+        Agreement</a> | <a href=\"https://www.tibia.com/support/?subtopic=legaldocuments&amp;page=privacy\">Privacy
+        Policy</a>\n</div>\n</div>\n<div class=\"main-themboxes Themeboxes\">\n<div
+        id=\"DeactivationContainerThemebox\" onClick=\"StopVideoIfExists();DisableDeactivationContainer();\"></div>\n<div
+        id=\"PremiumBox\" class=\"Themebox\" style=\"background-image:url(https://static.tibia.com/images/global/themeboxes/premium/themebox.png);\"><div
+        id=\"PremiumBoxDecor\" style=\"background-image:url(https://static.tibia.com/images/global/themeboxes/premium/coin_animation.gif);\"></div><div
+        id=\"PremiumBoxBg\" style=\"background-image:url(https://static.tibia.com/images/global/themeboxes/premium/coins_premium.png);\"></div><div
+        id=\"PremiumBoxOverlay\" style=\"background-image:url(https://static.tibia.com/images//global/themeboxes/premium/type_overlay.png);\"><p
+        id=\"PremiumBoxOverlayText\">Become Premium!</p></div><div id=\"PremiumBoxButton\"><form
+        action=\"https://www.tibia.com/account/index.php?subtopic=redirectlogin&redirect=https%3A%2F%2Fwww.tibia.com%2Faccount%2F%3Fsubtopic%3Daccountmanagement%23Products%2BAvailable\"
+        method=\"post\" style=\"padding:0px;margin:0px;\"><div class=\"WebshopButton\"
+        style=\"background-image:url(https://static.tibia.com/images/global/themeboxes/premium/button.png)\"><div
+        onMouseOver=\"MouseOverWebshopButton(this);\" onMouseOut=\"MouseOutWebshopButton(this);\"><div
+        class=\"WebshopButtonOver\" style=\"background-image:url(https://static.tibia.com/images/global/themeboxes/premium/button_hover.png);\"></div><input
+        class=\"WebshopButtonText\" type=\"image\" name=\"Get Coins\" alt=\"Get Coins\"
+        src=\"https://static.tibia.com/images/global/themeboxes/premium/get_tibia_coins.png\"></div></div></form></div><div
+        id=\"PremiumBoxButtonDecor\" style=\"background-image:url(https://static.tibia.com/images/global/themeboxes/premium/button_tibia_coins.png);\"></div></div>
+        \n<div id=\"FansiteBox\" class=\"Themebox\" style=\"background-image:url(https://static.tibia.com/images/global/themeboxes/fansites/fansites_themebox.gif);\">\n<div
+        id=\"FansiteLogoFrame\" style=\"background-image:url(https://static.tibia.com/images/global/themeboxes/fansites/border_supported.gif);\">\n<a
+        href=\"https://rookie.com.pl/\" target=\"_blank\" rel=\"noopener noreferrer\"><img
+        id=\"FansiteLogo\" src=\"https://static.tibia.com/images/community/fansitelogos/Rookie.com.pl.gif\"
+        /></a>\n</div>\n<div class=\"ThemeboxButton\">\n<div class=\"BigButton\" style=\"background-image:url(https://static.tibia.com/images/global/buttons/button_blue.gif)\"><div
+        onMouseOver=\"MouseOverBigButton(this);\" onMouseOut=\"MouseOutBigButton(this);\"><div
+        class=\"BigButtonOver\" style=\"background-image:url(https://static.tibia.com/images/global/buttons/button_blue_over.gif);\"></div><a
+        class=\"BigButtonText\" href=\"https://www.tibia.com/community/?subtopic=fansites\">View
+        all Fansites</a></div></div> </div>\n<div class=\"Bottom\" style=\"background-image:url(https://static.tibia.com/images/global/general/box-bottom.gif);\"></div>\n</div>\n</div>\n</div>\n<script
+        type=\"text/javascript\">\n    // disable all control elements which are not
+        part of the content container element\n    if (g_Deactivated == true) {\n
+        \     $(document).ready(function() {\n        $('#Monster').removeAttr('onclick');\n
+        \       $('#Monster').css('cursor', 'default');\n        $('#DeactivationContainer').removeAttr('onclick');\n
+        \       $('#LoginButtonContainer').css('z-index', 1);\n        $('#DeactivationContainer').css('display',
+        'block');\n        $('#DeactivationContainer').css('z-index', 50);\n        $('.Themeboxes').css('z-index',
+        40);\n        $('#RightArtwork').css('opacity', 0.30);\n      });\n    }\n
+        \ </script>\n<div id=\"cookiedialogbackground\"><div id=\"cookiedialogbox\"><div
+        class=\"TableContainer\"> <table class=\"Table5\" cellpadding=\"0\" cellspacing=\"0\">
+        <div class=\"CaptionContainer\"> <div class=\"CaptionInnerContainer\"> <span
+        class=\"CaptionEdgeLeftTop\" style=\"background-image:url(https://static.tibia.com/images/global/content/box-frame-edge.gif);\"
+        /></span> <span class=\"CaptionEdgeRightTop\" style=\"background-image:url(https://static.tibia.com/images/global/content/box-frame-edge.gif);\"
+        /></span> <span class=\"CaptionBorderTop\" style=\"background-image:url(https://static.tibia.com/images/global/content/table-headline-border.gif);\"></span>
+        <span class=\"CaptionVerticalLeft\" style=\"background-image:url(https://static.tibia.com/images/global/content/box-frame-vertical.gif);\"
+        /></span> <div class=\"Text\"><div class = CookieHeaderText> </div></div>
+        <span class=\"CaptionVerticalRight\" style=\"background-image:url(https://static.tibia.com/images/global/content/box-frame-vertical.gif);\"
+        /></span> <span class=\"CaptionBorderBottom\" style=\"background-image:url(https://static.tibia.com/images/global/content/table-headline-border.gif);\"></span>
+        <span class=\"CaptionEdgeLeftBottom\" style=\"background-image:url(https://static.tibia.com/images/global/content/box-frame-edge.gif);\"
+        /></span> <span class=\"CaptionEdgeRightBottom\" style=\"background-image:url(https://static.tibia.com/images/global/content/box-frame-edge.gif);\"
+        /></span> </div> </div> <tr> <td> <div class=\"TableScrollbarWrapper\"> <div
+        class=\"TableScrollbarContainer\"> </div> </div> <div class=\"InnerTableContainer\">
+        <table style=\"width:100%;\"><div id=\"cookiedialogimage\"><img src=\"https://static.tibia.com/images/global/general/warning-druid.png\"
+        /></div><div id=\"cookiedialogcontent\">Our website makes use of cookies (sadly
+        not the delicious, crumbly ones) and similar technologies. If you accept them,
+        we share information with our partners for social media, advertising and analysis.<br><br>Please
+        let us know which cookies we can use.<div class=\"SubmitButtonRow\"><div class=\"LeftButton\"><div
+        class=\"BigButton\" style=\"background-image:url(https://static.tibia.com/images/global/buttons/button_blue.gif)\"><div
+        class=\"ButtonEventHook\" onMouseOver=\"MouseOverBigButton(this);\" onMouseOut=\"MouseOutBigButton(this);\"><div
+        class=\"BigButtonOver\" style=\"background-image:url(https://static.tibia.com/images/global/buttons/button_blue_over.gif);\"></div><span
+        class=\"BigButtonText\" onClick=\"HideCookieDialog();ShowCookieDetails();\">Manage
+        Cookies</span></div></div></div><div class=\"RightButton\"><div class=\"BigButton\"
+        style=\"background-image:url(https://static.tibia.com/images/global/buttons/button_green.gif)\"><div
+        class=\"ButtonEventHook\" onMouseOver=\"MouseOverBigButton(this);\" onMouseOut=\"MouseOutBigButton(this);\"><div
+        class=\"BigButtonOver\" style=\"background-image:url(https://static.tibia.com/images/global/buttons/button_green_over.gif);\"></div><span
+        class=\"BigButtonText\" onClick=\"SetConsentCookie(true, true);\">Accept All</span></div></div></div></div></div>
+        </table> </div> </td> </tr> </table></div></div><div id=\"cookiedetailsbox\"><div
+        class=\"TableContainer\"> <table class=\"Table5\" cellpadding=\"0\" cellspacing=\"0\">
+        <div class=\"CaptionContainer\"> <div class=\"CaptionInnerContainer\"> <span
+        class=\"CaptionEdgeLeftTop\" style=\"background-image:url(https://static.tibia.com/images/global/content/box-frame-edge.gif);\"
+        /></span> <span class=\"CaptionEdgeRightTop\" style=\"background-image:url(https://static.tibia.com/images/global/content/box-frame-edge.gif);\"
+        /></span> <span class=\"CaptionBorderTop\" style=\"background-image:url(https://static.tibia.com/images/global/content/table-headline-border.gif);\"></span>
+        <span class=\"CaptionVerticalLeft\" style=\"background-image:url(https://static.tibia.com/images/global/content/box-frame-vertical.gif);\"
+        /></span> <div class=\"Text\">Manage Cookies</div> <span class=\"CaptionVerticalRight\"
+        style=\"background-image:url(https://static.tibia.com/images/global/content/box-frame-vertical.gif);\"
+        /></span> <span class=\"CaptionBorderBottom\" style=\"background-image:url(https://static.tibia.com/images/global/content/table-headline-border.gif);\"></span>
+        <span class=\"CaptionEdgeLeftBottom\" style=\"background-image:url(https://static.tibia.com/images/global/content/box-frame-edge.gif);\"
+        /></span> <span class=\"CaptionEdgeRightBottom\" style=\"background-image:url(https://static.tibia.com/images/global/content/box-frame-edge.gif);\"
+        /></span> </div> </div> <tr> <td> <div class=\"TableScrollbarWrapper\"> <div
+        class=\"TableScrollbarContainer\"> </div> </div> <div class=\"InnerTableContainer\">
+        <table style=\"width:100%;\"><tr><td> <div class=\"TableContentContainer\">
+        <table class=\"TableContent\" width=\"100%\" style=\"border:1px solid #faf0d7;\"><tr><td><label
+        class=\"switch\"><input type=\"checkbox\" id=\"cc_necessary\" checked=\"true\"
+        disabled=\"disabled\" /><span class=\"slider round\"></span></label></td><td
+        class=\"cookiedetailscontent\"><h3>Necessary</h3>These cookies are required
+        in order for our website to function (e.g. logging in). If you set your browser
+        to block or alert you about these cookies, some parts of the website might
+        not work.<br><br></td></tr> </table> </div></td></tr><tr><td> <div class=\"TableContentContainer\">
+        <table class=\"TableContent\" width=\"100%\" style=\"border:1px solid #faf0d7;\"><tr><td><label
+        class=\"switch\"><input type=\"checkbox\" id=\"cc_advertising\"><span class=\"slider
+        round\"></span></label></td><td class=\"cookiedetailscontent\"><h3>Targeting
+        and Advertising</h3>Advertisers and other content providers that may appear
+        on our website may also use cookies that are not sent by us. Such advertisements
+        or content may use cookies to help track and target the interests of users
+        of the website to present customised and personalised advertisements or other
+        messages that the user might find interesting. We also use these cookies and
+        so-called Tracking Pixels of our partners to measure and improve the effectiveness
+        of marketing campaigns. (Facebook Tracking Pixel)<br><br></td></tr> </table>
+        </div></td></tr><tr><td> <div class=\"TableContentContainer\"> <table class=\"TableContent\"
+        width=\"100%\" style=\"border:1px solid #faf0d7;\"><tr><td><label class=\"switch\"><input
+        type=\"checkbox\" id=\"cc_social\"><span class=\"slider round\"></span></label></td><td
+        class=\"cookiedetailscontent\"><h3>Social Media</h3>These cookies enable the
+        website to provide enhanced functionality and personalisation. They may be
+        set by third-party providers (like social networks or streaming platforms)
+        whose services we use on the website. If you do not allow these cookies, some
+        or all of these services may not function properly. (Twitter, YouTube, Facebook)<br><br></td></tr>
+        </table> </div></td></tr><tr><td colspan=\"2\"><div class=\"SubmitButtonRow\"><div
+        class=\"LeftButton\"><div class=\"BigButton\" style=\"background-image:url(https://static.tibia.com/images/global/buttons/button_blue.gif)\"><div
+        class=\"ButtonEventHook\" onMouseOver=\"MouseOverBigButton(this);\" onMouseOut=\"MouseOutBigButton(this);\"><div
+        class=\"BigButtonOver\" style=\"background-image:url(https://static.tibia.com/images/global/buttons/button_blue_over.gif);\"></div><span
+        class=\"BigButtonText\" onClick=\"HideCookieDetails();ShowCookieDialog();\">Close</span></div></div></div><div
+        class=\"CenterButton\"><div class=\"BigButton\" style=\"background-image:url(https://static.tibia.com/images/global/buttons/button_blue.gif)\"><div
+        class=\"ButtonEventHook\" onMouseOver=\"MouseOverBigButton(this);\" onMouseOut=\"MouseOutBigButton(this);\"><div
+        class=\"BigButtonOver\" style=\"background-image:url(https://static.tibia.com/images/global/buttons/button_blue_over.gif);\"></div><span
+        class=\"BigButtonText\" onClick=\"SetConsentCookie(true, false);\">Save Settings</span></div></div></div><div
+        class=\"RightButton\"><div class=\"BigButton\" style=\"background-image:url(https://static.tibia.com/images/global/buttons/button_green.gif)\"><div
+        class=\"ButtonEventHook\" onMouseOver=\"MouseOverBigButton(this);\" onMouseOut=\"MouseOutBigButton(this);\"><div
+        class=\"BigButtonOver\" style=\"background-image:url(https://static.tibia.com/images/global/buttons/button_green_over.gif);\"></div><span
+        class=\"BigButtonText\" onClick=\"SetConsentCookie(true, true);\">Accept All</span></div></div></div></div></td></tr>
+        </table> </div> </td> </tr> </table></div></div></div><div id=\"HelperDivContainer\"
+        style=\"background-image: url(https://static.tibia.com/images/global/content/scroll.gif);\"><div
+        class=\"HelperDivArrow\" style=\"background-image: url(https://static.tibia.com/images/global/content/helper-div-arrow.png);\"></div><div
+        id=\"HelperDivHeadline\"></div><div id=\"HelperDivText\"></div><center><img
+        class=\"Ornament\" src=\"https://static.tibia.com/images/global/content/ornament.gif\"
+        /></center><br /></div><div id=\"BackToTopButton\" class=\"MobileNavigationLinkContainer
+        MobileNavigationMainElement\"><a id=\"BackToTopArrowUp\" href=\"#top\"> </a></div>
+        </body>\n</html>\n"
+  recorded_at: Tue, 06 Jun 2023 20:07:06 GMT
+recorded_with: VCR 6.1.0

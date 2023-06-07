@@ -58,6 +58,8 @@ end
 
 group :test do
   gem "simplecov", "~> 0.22.0", require: false
+  gem "vcr", "~> 6.1"
+  gem "webmock", "~> 3.18"
 end
 
 gem "devise", "~> 4.9"
@@ -71,3 +73,5 @@ gem "dotenv-rails", "~> 2.8"
 gem "rubocop-shopify", "~> 2.13"
 
 gem "sidekiq", "~> 7.1"
+
+gem "nokogiri", "~> 1.15"

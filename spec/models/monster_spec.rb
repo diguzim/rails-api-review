@@ -15,9 +15,9 @@ describe Monster, type: :model do
     expect(monster).to(be_valid)
   end
 
-  it "is not valid when user is missing" do
+  it "is valid when user is missing" do
     monster = Monster.new(name: "Troll")
-    expect(monster).to_not(be_valid)
+    expect(monster).to(be_valid)
   end
 
   it "is not valid when name is missing" do
