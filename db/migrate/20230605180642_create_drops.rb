@@ -4,7 +4,7 @@ class CreateDrops < ActiveRecord::Migration[7.0]
   def up
     create_table(:drops) do |t|
       t.references(:item, null: false, foreign_key: true)
-      t.references(:monster, null: false, foreign_key: true)
+      t.references(:creature, null: false, foreign_key: true)
 
       t.timestamps
     end

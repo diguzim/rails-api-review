@@ -2,7 +2,7 @@
 
 require "rails_helper"
 
-RSpec.describe(MonstersController, type: :controller) do
+RSpec.describe(CreaturesController, type: :controller) do
   describe "with an authenticated user" do
     let(:user) { create(:user) }
 
@@ -19,23 +19,23 @@ RSpec.describe(MonstersController, type: :controller) do
 
     describe "GET #show" do
       it "returns a successful response" do
-        monster = create(:monster, user: user)
+        creature = create(:creature, user: user)
 
-        get :show, params: { id: monster.id }
+        get :show, params: { id: creature.id }
         expect(response).to(be_successful)
       end
     end
 
     describe "POST #create" do
       context "with valid parameters" do
-        it "creates a new monster" do
+        it "creates a new creature" do
           expect do
-            post(:create, params: { monster: { name: "Troll" } })
-          end.to(change(Monster, :count).by(1))
+            post(:create, params: { creature: { name: "Troll" } })
+          end.to(change(Creature, :count).by(1))
         end
 
         it "returns a successful response" do
-          post :create, params: { monster: { name: "Troll" } }
+          post :create, params: { creature: { name: "Troll" } }
           expect(response).to(be_successful)
         end
       end
@@ -43,38 +43,38 @@ RSpec.describe(MonstersController, type: :controller) do
 
     describe "PATCH #update" do
       context "with valid parameters" do
-        it "updates the monster" do
-          monster = create(:monster, user: user)
+        it "updates the creature" do
+          creature = create(:creature, user: user)
 
           new_name = "New Name"
-          patch :update, params: { id: monster.id, monster: { name: new_name } }
-          monster.reload
+          patch :update, params: { id: creature.id, creature: { name: new_name } }
+          creature.reload
 
-          expect(monster.name).to(eq(new_name))
+          expect(creature.name).to(eq(new_name))
         end
 
         it "returns a successful response" do
-          monster = create(:monster, user: user)
+          creature = create(:creature, user: user)
 
-          patch :update, params: { id: monster.id, monster: { name: "New Name" } }
+          patch :update, params: { id: creature.id, creature: { name: "New Name" } }
           expect(response).to(be_successful)
         end
       end
     end
 
     describe "DELETE #destroy" do
-      it "destroys the monster" do
-        monster = create(:monster, user: user)
+      it "destroys the creature" do
+        creature = create(:creature, user: user)
 
         expect do
-          delete(:destroy, params: { id: monster.id })
-        end.to(change(Monster, :count).by(-1))
+          delete(:destroy, params: { id: creature.id })
+        end.to(change(Creature, :count).by(-1))
       end
 
       it "returns a successful response" do
-        monster = create(:monster, user: user)
+        creature = create(:creature, user: user)
 
-        delete :destroy, params: { id: monster.id }
+        delete :destroy, params: { id: creature.id }
         expect(response).to(be_successful)
       end
     end

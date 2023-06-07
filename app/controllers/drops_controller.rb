@@ -50,6 +50,6 @@ class DropsController < ApplicationController
 
   # Only allow a list of trusted parameters through.
   def drop_params
-    params.require(:drop).permit(:item_id, :monster_id)
+    params.require(:drop).permit(:item_id, :creature_id)
   end
 end

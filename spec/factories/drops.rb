@@ -3,6 +3,6 @@
 FactoryBot.define do
   factory :drop do
     item { association :item }
-    monster { association :monster }
+    creature { association :creature }
   end
 end

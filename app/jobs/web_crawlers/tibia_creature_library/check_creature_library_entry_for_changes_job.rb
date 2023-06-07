@@ -32,13 +32,13 @@ module WebCrawlers
             NotifyLibraryEntryDescriptionChangeJob.perform_later(existing_creature_library_entry.id, description)
           end
         else
-          monster = Monster.create!({ name: pluralized_name })
+          creature = Creature.create!({ name: pluralized_name })
 
           CreatureLibraryEntry.create!(
             race:,
             pluralized_name:,
             description:,
-            monster:,
+            creature:,
           )
         end
 

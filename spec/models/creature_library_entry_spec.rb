@@ -3,11 +3,11 @@
 require "rails_helper"
 
 RSpec.describe(CreatureLibraryEntry, type: :model) do
-  let(:monster) { create(:monster) }
+  let(:creature) { create(:creature) }
 
   it "is valid with valid attributes" do
     creature_library_entry = CreatureLibraryEntry.new(
-      monster:,
+      creature:,
       race: "troll",
       description: "lalala",
       pluralized_name: "Trolls",
@@ -20,8 +20,8 @@ RSpec.describe(CreatureLibraryEntry, type: :model) do
     expect(creature_library_entry).to(be_valid)
   end
 
-  it "is not valid when monster is missing" do
-    creature_library_entry = CreatureLibraryEntry.new(monster: nil)
+  it "is not valid when creature is missing" do
+    creature_library_entry = CreatureLibraryEntry.new(creature: nil)
     expect(creature_library_entry).to_not(be_valid)
   end
 end

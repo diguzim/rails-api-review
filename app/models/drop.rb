@@ -2,5 +2,5 @@
 
 class Drop < ApplicationRecord
   belongs_to :item
-  belongs_to :monster
+  belongs_to :creature
 end

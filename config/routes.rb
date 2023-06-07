@@ -9,7 +9,7 @@ Sidekiq::Web.use(ActionDispatch::Session::CookieStore, key: "_interslice_session
 Rails.application.routes.draw do
   resources :drops
   resources :items
-  resources :monsters
+  resources :creatures
   devise_for :users, defaults: {
     format: :json,
   }

@@ -13,7 +13,7 @@ RSpec.describe(WebCrawlers::TibiaCreatureLibrary::CheckCreatureLibraryEntryForCh
         VCR.use_cassette("app/jobs/web_crawlers/tibia_creature_library/check_creature_library_entry_for_changes_job.rb") do
           # rubocop:enable Layout/LineLength(RuboCop)
           expect { call }.to(
-            change(Monster, :count).by(1),
+            change(Creature, :count).by(1),
             change(CreatureLibraryEntry, :count).by(1),
           )
         end
@@ -21,9 +21,9 @@ RSpec.describe(WebCrawlers::TibiaCreatureLibrary::CheckCreatureLibraryEntryForCh
     end
 
     context "when race already recorded" do
-      let(:monster) { create(:monster) }
+      let(:creature) { create(:creature) }
       let!(:creature_library_entry) do
-        create(:creature_library_entry, monster: monster, race: race, description: description)
+        create(:creature_library_entry, creature: creature, race: race, description: description)
       end
 
       context "when description matches" do
@@ -44,7 +44,7 @@ RSpec.describe(WebCrawlers::TibiaCreatureLibrary::CheckCreatureLibraryEntryForCh
             # rubocop:enable Layout/LineLength(RuboCop)
             expect { call }
               .to(
-                change(Monster, :count).by(0),
+                change(Creature, :count).by(0),
                 change(CreatureLibraryEntry, :count).by(0),
               )
 
@@ -62,7 +62,7 @@ RSpec.describe(WebCrawlers::TibiaCreatureLibrary::CheckCreatureLibraryEntryForCh
             # rubocop:enable Layout/LineLength(RuboCop)
             expect { call }
               .to(
-                change(Monster, :count).by(0),
+                change(Creature, :count).by(0),
                 change(CreatureLibraryEntry, :count).by(0),
               )
 

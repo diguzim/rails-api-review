@@ -4,10 +4,10 @@ require "rails_helper"
 
 RSpec.describe(Drop, type: :model) do
   let(:item) { create(:item) }
-  let(:monster) { create(:monster) }
+  let(:creature) { create(:creature) }
 
   it "is valid with valid attributes" do
-    drop = Drop.new(item:, monster:)
+    drop = Drop.new(item:, creature:)
     expect(drop).to(be_valid)
   end
 
@@ -17,11 +17,11 @@ RSpec.describe(Drop, type: :model) do
   end
 
   it "is not valid when item is missing" do
-    drop = Drop.new(monster:)
+    drop = Drop.new(creature:)
     expect(drop).to_not(be_valid)
   end
 
-  it "is not valid when monster is missing" do
+  it "is not valid when creature is missing" do
     drop = Drop.new(item:)
     expect(drop).to_not(be_valid)
   end
