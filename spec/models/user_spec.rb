@@ -18,6 +18,11 @@ describe User, type: :model do
     expect(user).to_not(be_valid)
   end
 
+  it "is not valid with an invalid email" do
+    user = User.new(email: "test", password: "password")
+    expect(user).to_not(be_valid)
+  end
+
   it "is not valid without a password" do
     user = User.new(email: "test@example.com")
     expect(user).to_not(be_valid)

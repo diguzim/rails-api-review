@@ -8,7 +8,8 @@ class User < ApplicationRecord
     :jwt_authenticatable,
     jwt_revocation_strategy: self
 
-  validates :email, presence: true
+  validates :email, presence: true, format: { with: Devise.email_regexp }
+
   validates :password, presence: true
 
   has_many :creatures
