@@ -1,3 +1,4 @@
+- Adicionar algum logger
 - Deploy on AWS
 - Start CI/CD processes
 - Checkout Ruby on Jets(Ruby Serverless Framework)
