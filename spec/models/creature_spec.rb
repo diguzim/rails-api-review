@@ -24,4 +24,9 @@ describe Creature, type: :model do
     creature = Creature.new(user:)
     expect(creature).to_not(be_valid)
   end
+
+  it "dispatches a job to notify admin about creature creation" do
+    creature = create(:creature)
+    expect(Notifications::NotifyAdminAboutCreatureCreationJob).to(have_been_enqueued.with(creature))
+  end
 end
